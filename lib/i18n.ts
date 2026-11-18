@@ -23,8 +23,8 @@ const uz = {
   steps: { eb: 'Qanday ishlaymiz', t: 'Arizadan *yetkazishgacha*' },
   calc: {
     eb: 'Kalkulyator', t: 'Qancha *material* va qancha *pul* kerak?', p: "Maydonni kiriting — miqdor va taxminiy narxni darhol hisoblaymiz. Aniq narx uchun ariza qoldiring.",
-    material: 'Material', area: 'Maydon, m²', thickness: 'Qalinligi', reserve: 'Zaxira (kesish uchun)', need: 'Sizga kerak bo\'ladi',
-    sheets: 'dona list', rolls: 'rulon', areaRes: 'Zaxira bilan maydon', volume: 'Hajm', packs: 'Qadoq', rollSize: 'Rulon', cost: 'Taxminiy narx', costNA: "Narx so'rov bo'yicha",
+    material: '1. Material', area: '2. Maydon, m²', thickness: '3. Qalinligi', reserve: '4. Zaxira (kesish uchun)', need: 'Sizga kerak bo\'ladi',
+    sheets: 'dona list', rolls: 'rulon', areaRes: 'Zaxira bilan maydon', volume: 'Hajm, m³', packs: 'Qadoq', rollSize: 'Rulon', cost: 'Taxminiy narx', costNA: "Narx so'rov bo'yicha", how: 'Qanday hisoblandi', rollArea: '1 rulon', sheetArea: '1 list', inPack: 'Qadoqda', listUnit: 'list', rollUnit: 'rulon', packOf: 'listdan',
     note: "* Hisob taxminiy. Qadoqdagi soni va narx qalinlikka qarab o'zgaradi — aniq ma'lumotni menejer beradi.", btn: "Shu hisob bo'yicha buyurtma berish", page: "To'liq kalkulyator",
   },
   delivery: { eb: 'Yetkazib berish' },
@@ -65,8 +65,8 @@ const ru: Dict = {
   steps: { eb: 'Как мы работаем', t: 'От заявки *до доставки*' },
   calc: {
     eb: 'Калькулятор', t: 'Сколько нужно *материала* и *денег*?', p: 'Введите площадь — сразу посчитаем количество и примерную стоимость. Для точной цены оставьте заявку.',
-    material: 'Материал', area: 'Площадь, м²', thickness: 'Толщина', reserve: 'Запас (на подрезку)', need: 'Вам понадобится',
-    sheets: 'листов', rolls: 'рулонов', areaRes: 'Площадь с запасом', volume: 'Объём', packs: 'Упаковок', rollSize: 'Рулон', cost: 'Примерная стоимость', costNA: 'Цена по запросу',
+    material: '1. Материал', area: '2. Площадь, м²', thickness: '3. Толщина', reserve: '4. Запас (на подрезку)', need: 'Вам понадобится',
+    sheets: 'листов', rolls: 'рулонов', areaRes: 'Площадь с запасом', volume: 'Объём, м³', packs: 'Упаковок', rollSize: 'Рулон', cost: 'Примерная стоимость', costNA: 'Цена по запросу', how: 'Как посчитано', rollArea: '1 рулон', sheetArea: '1 лист', inPack: 'В упаковке', listUnit: 'лист.', rollUnit: 'рул.', packOf: 'листов',
     note: '* Расчёт примерный. Количество в упаковке и цена зависят от толщины — точные данные даст менеджер.', btn: 'Заказать по этому расчёту', page: 'Полный калькулятор',
   },
   delivery: { eb: 'Доставка' },

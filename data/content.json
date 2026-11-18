@@ -1260,7 +1260,7 @@
       "id": "xps-30-35",
       "product": "xps-premium",
       "kind": "board",
-      "sheetArea": 0.72,
+      "sheetArea": 0.7,
       "name": {
         "uz": "XPS Premium",
         "ru": "XPS Premium"
@@ -1297,7 +1297,7 @@
       "id": "xps-24-25",
       "product": "xps-standard",
       "kind": "board",
-      "sheetArea": 0.72,
+      "sheetArea": 0.7,
       "name": {
         "uz": "XPS Standard",
         "ru": "XPS Standard"
@@ -1342,17 +1342,17 @@
         },
         {
           "mm": 5,
-          "perPack": 25,
+          "perPack": 50,
           "price": 0
         },
         {
           "mm": 8,
-          "perPack": 15,
+          "perPack": 50,
           "price": 0
         },
         {
           "mm": 10,
-          "perPack": 15,
+          "perPack": 50,
           "price": 0
         }
       ]

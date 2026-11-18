@@ -18,7 +18,20 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   const d = getDict(lang)
   const prods = published(c)
   const bySlug = new Map(c.products.map((p) => [p.slug, p]))
-  const heroSlides = prods.filter((p, i, a) => a.findIndex((x) => x.image === p.image) === i && !p.image.endsWith('.svg')).slice(0, 4).map((p) => ({ image: p.image, name: p.name[lang] }))
+  // Hero showcase: each product with its OWN two short facts (no fixed XPS numbers on other products).
+  const heroSlides = prods
+    .filter((p, i, a) => a.findIndex((x) => x.image === p.image) === i && !p.image.endsWith('.svg'))
+    .slice(0, 6)
+    .map((p) => ({
+      image: p.image,
+      name: p.name[lang],
+      cat: d.catalog.cats[p.cat],
+      href: `/${lang}/mahsulotlar/${p.slug}`,
+      tags: p.specs
+        .map((s) => ({ value: specValue(s.value, lang), label: s.label[lang] }))
+        .filter((t) => t.value && t.value !== '—' && t.value.length <= 16)
+        .slice(0, 2),
+    }))
   const xps35 = prods.find((p) => p.slug === 'xps-premium')
   const xps25 = prods.find((p) => p.slug === 'xps-standard')
   const marquee = [...d.marquee, ...d.marquee, ...d.marquee, ...d.marquee]
@@ -41,7 +54,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               {c.stats.map((s, i) => <div key={i}><b>{s.value}</b><span>{s.label[lang]}</span></div>)}
             </div>
           </div>
-          <HeroSlider slides={heroSlides} now={d.now} tag1={d.tag1} tag2={d.tag2} />
+          <HeroSlider slides={heroSlides} now={d.now} more={d.catalog.more} />
         </div>
       </section>
 

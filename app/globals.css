@@ -98,7 +98,8 @@ section.pb0{padding-bottom:0}
 .facts div+div{padding-left:22px;border-left:1px solid var(--line)}
 .facts b{display:block;font-size:clamp(24px,2.6vw,38px);font-weight:500;letter-spacing:-.04em;white-space:nowrap}
 .facts span{font-size:13px;color:var(--muted)}
-.stage{position:relative;aspect-ratio:1/1;max-width:600px;margin-left:auto;width:100%}
+.hero-show{max-width:600px;margin-left:auto;width:100%}
+.stage{position:relative;aspect-ratio:1/1;width:100%}
 .stage .ring{position:absolute;inset:6%;border:1px solid var(--line);border-radius:50%}
 .stage .ring.r2{inset:20%;border-style:dashed;animation:spin 80s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
@@ -108,9 +109,16 @@ section.pb0{padding-bottom:0}
 .tag{position:absolute;background:var(--glass);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:14px;padding:14px 18px;font-size:12px;color:var(--muted);box-shadow:var(--shadow);z-index:2}
 .tag b{display:block;font-size:18px;font-weight:600;color:var(--text);letter-spacing:-.02em}
 .tag.t1{top:12%;left:0}.tag.t2{bottom:14%;right:0}
-.hero-ctrl{position:absolute;bottom:0;left:0;display:flex;gap:6px;align-items:center}
-.hero-ctrl button{width:28px;height:2px;border:0;background:var(--line2);cursor:pointer;transition:.4s;padding:8px 0;background-clip:content-box}
-.hero-ctrl button.on{background-color:var(--red);width:56px}
+.tag{animation:tagIn .6s cubic-bezier(.2,.8,.2,1)}
+@keyframes tagIn{from{opacity:0;transform:translateY(8px)}}
+.hero-more{position:absolute;left:9%;bottom:7%;z-index:2;display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;background:var(--text);color:var(--bg);padding:9px 14px;border-radius:10px}
+.hero-more .ico{width:16px;height:16px}
+.hero-pick{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.hero-pick button{min-width:0;display:flex;align-items:center;gap:10px;padding:6px 14px 6px 6px;border-radius:12px;border:1px solid var(--line2);background:var(--card);color:var(--text);cursor:pointer;font-size:13px;font-weight:500;transition:.25s}
+.hero-pick button:hover{border-color:var(--text)}
+.hero-pick button.on{background:var(--text);color:var(--bg);border-color:var(--text)}
+.hero-pick .th img{width:44px;height:33px;object-fit:cover;border-radius:7px;display:block}
+.hero-pick .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .hero-name{position:absolute;top:0;right:0;text-align:right;font-size:11px;color:var(--muted);letter-spacing:.2em;text-transform:uppercase}
 .hero-name b{display:block;color:var(--text);font-size:17px;letter-spacing:-.01em;text-transform:none;margin-top:6px;font-weight:600}
 
@@ -257,6 +265,9 @@ select option{background:var(--card)}
 .rlist div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(255,255,255,.14);padding:13px 0;font-size:15px;color:rgba(255,255,255,.75)}
 .rlist b{color:#fff;font-weight:600;text-align:right}
 .rlist .cost b{color:var(--yellow);font-size:18px}
+.how{display:grid;gap:4px;margin-top:22px;padding:14px 16px;border-radius:14px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);font-size:14px;color:rgba(255,255,255,.8);font-variant-numeric:tabular-nums}
+.how small{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:2px}
+.how b{color:#fff}
 .res .note{font-size:12px;color:rgba(255,255,255,.5);margin-bottom:24px}
 .res .btn{margin-top:auto;justify-content:space-between}
 .calc-page section{padding-top:30px}
@@ -353,7 +364,7 @@ a.ci:hover{padding-left:14px}
   .menu{display:none}.burger{display:grid}
   .menu.open{display:flex;flex-direction:column;position:absolute;top:84px;left:0;right:0;background:var(--bg);padding:28px 32px;border-bottom:1px solid var(--line);font-size:18px;gap:22px}
   .hero-in,.calc,.deliv,.contact,.cmp,.aud,.finder,.pd,.pd-body,.sol-hero,.faq-wrap{grid-template-columns:1fr}
-  .stage{margin:0 auto;max-width:460px}
+  .hero-show{margin:0 auto;max-width:520px}
   .pgrid,.wgrid{grid-template-columns:1fr 1fr}
   .witem:not(:nth-child(3n+1)){padding-left:0;border-left:0}
   .witem:nth-child(even){padding-left:28px;border-left:1px solid var(--line)}
@@ -371,7 +382,11 @@ a.ci:hover{padding-left:14px}
   .facts div+div{padding-left:12px}
   .facts b{font-size:19px}
   .oform .row{grid-template-columns:1fr}
-  .tag{display:none}
+  .tag{padding:9px 12px;font-size:11px}.tag b{font-size:14px}.tag.t1{top:8%}.tag.t2{bottom:8%}
+  .hero-name{display:none}
+  .hero-pick{gap:6px}
+  .hero-pick button{flex-direction:column;align-items:stretch;padding:5px;gap:4px;font-size:11px;text-align:center}
+  .hero-pick .th img{width:100%;height:auto;aspect-ratio:4/3}
   .cbox,.res,.cmp-c,.aud-c{padding:26px}
   .aud-c .big-ic{width:56px;height:56px;right:22px;top:22px}
   .lang a{padding:6px 7px}

@@ -28,7 +28,7 @@ export default function Calculator({ lang, d, materials, productFor }: { lang: L
     const A = area * (1 + reserve / 100)
     const volume = (A * opt.mm) / 1000
     if (mat.kind === 'board') {
-      const sheets = Math.ceil(A / (mat.sheetArea || 0.72))
+      const sheets = Math.ceil(A / (mat.sheetArea || 0.7))
       const packs = Math.ceil(sheets / Math.max(1, opt.perPack))
       return { A, volume, main: sheets, mainUnit: d.calc.sheets, packs, cost: opt.price ? packs * opt.price : 0, summary: `${mat.name[lang]} ${opt.mm} mm · ${area} m² → ${sheets} ${d.calc.sheets}, ${packs} ${d.calc.packs.toLowerCase()}` }
     }
@@ -78,12 +78,28 @@ export default function Calculator({ lang, d, materials, productFor }: { lang: L
       <div className="res rv" aria-live="polite">
         <span className="eyebrow">{d.calc.need}</span>
         <div className="rnum">{r.main} <small>{r.mainUnit}</small></div>
+        {/* Show the arithmetic so the customer can follow it */}
+        <div className="how">
+          <small>{d.calc.how}</small>
+          {mat.kind === 'board' ? (
+            <>
+              <span>{d.calc.sheetArea} = {fmt(mat.sheetArea || 0.7)} m²</span>
+              <span>{fmt(r.A)} m² ÷ {fmt(mat.sheetArea || 0.7)} m² = <b>{r.main} {d.calc.listUnit}</b></span>
+              <span>{r.main} ÷ {opt.perPack} = <b>{r.packs} {d.calc.packs.toLowerCase()}</b></span>
+            </>
+          ) : (
+            <>
+              <span>{d.calc.rollArea} = {fmt(opt.perPack)} m²</span>
+              <span>{fmt(r.A)} m² ÷ {fmt(opt.perPack)} m² = <b>{r.main} {d.calc.rollUnit}</b></span>
+            </>
+          )}
+        </div>
         <div className="rlist">
           <div><span>{d.calc.areaRes}</span><b>{fmt(r.A)} m²</b></div>
-          <div><span>{d.calc.volume}</span><b>{fmt(r.volume)} m³</b></div>
           {mat.kind === 'board'
-            ? <div><span>{d.calc.packs}</span><b>{r.packs} ({opt.perPack}×)</b></div>
-            : <div><span>{d.calc.rollSize}</span><b>1 × {opt.perPack} m</b></div>}
+            ? <div><span>{d.calc.packs} ({d.calc.inPack.toLowerCase()} {opt.perPack} {d.calc.packOf})</span><b>{r.packs}</b></div>
+            : <div><span>{d.calc.rollArea}</span><b>{fmt(opt.perPack)} m²</b></div>}
+          <div><span>{d.calc.volume}</span><b>{fmt(r.volume)}</b></div>
           <div className="cost"><span>{d.calc.cost}</span><b>{r.cost ? `≈ ${formatPrice(r.cost)} ${d.price.currency}` : d.calc.costNA}</b></div>
         </div>
         <p className="note">{d.calc.note}</p>
