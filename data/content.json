@@ -11,8 +11,12 @@
     "telegram": "Izolyuks1",
     "instagram": "izolyuks",
     "address": {
-      "uz": "Toshkent shahri",
-      "ru": "г. Ташкент"
+      "uz": "Toshkent sh., Uchtepa tumani, Dilkash ko'chasi, 2",
+      "ru": "г. Ташкент, Учтепинский район, ул. Дилькаш, 2"
+    },
+    "street": {
+      "uz": "Dilkash ko'chasi, 2",
+      "ru": "ул. Дилькаш, 2"
     },
     "mapUrl": "https://maps.google.com/maps?q=41.313527,69.180819&ll=41.313527,69.180819&z=16",
     "mapEmbed": "https://maps.google.com/maps?q=41.313527,69.180819&z=16&output=embed",

@@ -27,7 +27,7 @@ const LABELS: Record<string, string> = {
   zone: 'Uy sxemasidagi qism', thickness: 'Tavsiya etilgan qalinlik', text: 'Matn', id: 'ID', kind: 'Turi', sheetArea: 'Bitta list maydoni (m²)', options: 'Qalinlik va narxlar',
   mm: 'Qalinlik (mm)', perPack: 'Qadoqdagi listlar soni / rulondagi m²', title: 'Sarlavha', eyebrow: 'Ustki kichik yozuv', lead: 'Tavsif', icon: 'Ikonka', caption: 'Izoh', q: 'Savol', a: 'Javob', routes: "Yo'nalishlar", code: 'Kod',
   legalName: 'Yuridik nomi', foundingYear: 'Tashkil topgan yil', phone: 'Telefon (+998XXXXXXXXX)', phoneDisplay: "Telefon (saytda ko'rinishi)", phoneLabel: 'Telefon izohi', telegram: 'Telegram username (@siz)', instagram: 'Instagram username',
-  address: 'Manzil', mapUrl: 'Xarita havolasi', mapEmbed: 'Xarita (iframe) havolasi', workHours: 'Ish vaqti', keywords: 'Kalit so‘zlar (vergul bilan)',
+  address: 'Manzil', street: 'Ko‘cha va uy (Google uchun)', mapUrl: 'Xarita havolasi', mapEmbed: 'Xarita (iframe) havolasi', workHours: 'Ish vaqti', keywords: 'Kalit so‘zlar (vergul bilan)',
   images: 'Qo‘shimcha rasmlar (galereya)', geo: 'Xaritadagi nuqta', lat: 'Kenglik (lat)', lng: 'Uzunlik (lng)', product: 'Buyurtmada tanlanadigan mahsulot (slug)',
 }
 const LONG = new Set(['description', 'a', 'text', 'lead', 'short', 'seoDescription'])

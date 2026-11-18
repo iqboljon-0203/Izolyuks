@@ -64,6 +64,8 @@ export interface Content {
     telegram: string
     instagram: string
     address: L
+    /** Ko'cha va uy (Google uchun streetAddress) */
+    street?: L
     mapUrl: string
     mapEmbed: string
     /** Xaritadagi nuqta (Google uchun LocalBusiness geo) */

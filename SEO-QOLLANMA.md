@@ -54,7 +54,7 @@ https://business.google.com → **Add business**
 | Nomi | **IZOLYUKS** (Google qoidasi: faqat haqiqiy nom, kalit so'z qo'shmang — aks holda profil bloklanishi mumkin) |
 | Asosiy toifa | Insulation materials store / Магазин теплоизоляционных материалов |
 | Qo'shimcha toifalar | Manufacturer · Building materials supplier · Building materials store |
-| Manzil | Xaritadagi nuqta: 41.313527, 69.180819 (Toshkent). Ko'cha va uy raqamini aniq kiriting |
+| Manzil | Toshkent sh., Uchtepa tumani, Xondamir mahallasi, Dilkash ko'chasi, 2 (nuqta: 41.313527, 69.180819; Plus kod 857J+C88) |
 | Telefon | +998 99 766 90 99 |
 | Sayt | https://izolyuks.uz/uz |
 | Ish vaqti | Du–Sh 09:00–18:00 (haqiqiysini kiriting) |

@@ -58,7 +58,7 @@ export function orgLd(c: Content, lang: Lang) {
     description: c.seo.description[lang],
     foundingDate: String(s.foundingYear),
     telephone: s.phone,
-    address: { '@type': 'PostalAddress', addressLocality: 'Tashkent', addressCountry: 'UZ', streetAddress: s.address[lang] },
+    address: { '@type': 'PostalAddress', streetAddress: s.street?.[lang] || s.address[lang], addressLocality: lang === 'ru' ? 'Ташкент' : 'Toshkent', addressRegion: lang === 'ru' ? 'Учтепинский район' : 'Uchtepa tumani', addressCountry: 'UZ' },
     ...(s.geo ? { geo: { '@type': 'GeoCoordinates', latitude: s.geo.lat, longitude: s.geo.lng }, hasMap: s.mapUrl } : {}),
     areaServed: ['UZ', 'KZ', 'TJ', 'TM', 'KG'],
     openingHours: 'Mo-Sa 09:00-18:00',
