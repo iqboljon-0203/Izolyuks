@@ -1,0 +1,399 @@
+{
+  "site": {
+    "legalName": "OOO \"IZO LYUKS\"",
+    "foundingYear": 2013,
+    "phone": "+998997669099",
+    "phoneDisplay": "+998 99 766 90 99",
+    "phoneLabel": { "uz": "Telefon · Hojiakbar", "ru": "Телефон · Хожиакбар" },
+    "telegram": "Izolyuks1",
+    "instagram": "izolyuks",
+    "address": { "uz": "Toshkent shahri", "ru": "г. Ташкент" },
+    "mapUrl": "https://yandex.uz/maps/?text=Izolyuks%20Toshkent",
+    "mapEmbed": "https://yandex.uz/map-widget/v1/?text=Izolyuks%20Toshkent&z=11",
+    "workHours": { "uz": "Du–Sh, 09:00–18:00", "ru": "Пн–Сб, 09:00–18:00" }
+  },
+  "seo": {
+    "title": {
+      "uz": "IZOLYUKS — XPS penopleks va sintifon ishlab chiqaruvchisi | Toshkent",
+      "ru": "IZOLYUKS — производитель пеноплекса XPS и синтифона | Ташкент"
+    },
+    "description": {
+      "uz": "IZOLYUKS — 2013-yildan beri XPS penopleks, folgali sintifon va izolyatsiya mahsulotlarini ishlab chiqaruvchi zavod. Zavod narxi, ulgurji va chakana, O'zbekiston bo'ylab yetkazib berish.",
+      "ru": "IZOLYUKS — завод-производитель пеноплекса XPS, фольгированного синтифона и теплоизоляции с 2013 года. Цены завода, опт и розница, доставка по всему Узбекистану."
+    },
+    "keywords": {
+      "uz": "penopleks, XPS, sintifon, izolyatsiya, issiqlik izolyatsiyasi, penopleks narxi, sintifon narxi, Toshkent",
+      "ru": "пеноплекс, XPS, синтифон, теплоизоляция, утеплитель, пеноплекс цена, синтифон цена, Ташкент, Узбекистан"
+    }
+  },
+  "hero": {
+    "eyebrow": { "uz": "Izolyatsiya zavodi · 2013-yildan", "ru": "Завод изоляции · с 2013 года" },
+    "title": { "uz": "Issiqlikni ushlaydi, *pulingizni* tejaydi", "ru": "Держит тепло, *экономит* ваши деньги" },
+    "lead": {
+      "uz": "XPS penopleks va sintifon — to'g'ridan-to'g'ri zavoddan. Diler emasmiz: barqaror sifat, hamyonbop narx va O'zbekiston bo'ylab yetkazib berish.",
+      "ru": "Пеноплекс XPS и синтифон — напрямую с завода. Мы не дилер: стабильное качество, доступная цена и доставка по всему Узбекистану."
+    }
+  },
+  "stats": [
+    { "value": "13+", "label": { "uz": "yil tajriba", "ru": "лет опыта" } },
+    { "value": "12", "label": { "uz": "viloyatga yetkazish", "ru": "областей доставки" } },
+    { "value": "−70…+75°", "label": { "uz": "harorat chidamliligi", "ru": "диапазон температур" } }
+  ],
+  "products": [
+    {
+      "slug": "xps-30-35-ekstrim",
+      "cat": "xps",
+      "badge": "TOP",
+      "image": "/img/product-1.jpg",
+      "price": 0,
+      "unit": { "uz": "qadoq", "ru": "упаковка" },
+      "published": true,
+      "name": { "uz": "XPS 30–35 «Ekstrim»", "ru": "XPS 30–35 «Экстрим»" },
+      "short": {
+        "uz": "Yuqori plotnostli ekstruziyalangan penopolistirol. Issiq pol, fundament va sokol uchun.",
+        "ru": "Экструдированный пенополистирол высокой плотности. Для тёплого пола, фундамента и цоколя."
+      },
+      "description": {
+        "uz": "XPS 30–35 «Ekstrim» — zichligi 30–35 kg/m³ bo'lgan ekstruziyalangan penopolistirol plita. Yopiq hujayrali tuzilishi tufayli suvni deyarli shimmaydi, siqilishga va deformatsiyaga chidamli. Shuning uchun u yuk tushadigan joylar — issiq pol, styajka osti, fundament va sokol uchun eng to'g'ri tanlov.\n\nPlitalar chetidagi «shpunt» (zamok) tufayli bir-biriga zich ulanadi va sovuq ko'priklari hosil bo'lmaydi. Material −70°C dan +75°C gacha haroratda xossalarini yo'qotmaydi, chirimaydi va mog'or bosmaydi.",
+        "ru": "XPS 30–35 «Экстрим» — плиты экструдированного пенополистирола плотностью 30–35 кг/м³. Благодаря закрытой ячеистой структуре почти не впитывают воду, устойчивы к сжатию и деформации. Поэтому это лучший выбор для нагруженных мест — тёплого пола, под стяжку, фундамента и цоколя.\n\nКромка «шпунт» обеспечивает плотное соединение плит без мостиков холода. Материал сохраняет свойства от −70°C до +75°C, не гниёт и не покрывается плесенью."
+      },
+      "specs": [
+        { "label": { "uz": "Plotnost", "ru": "Плотность" }, "value": "30–35 kg/m³" },
+        { "label": { "uz": "Qalinlik", "ru": "Толщина" }, "value": "20–100 mm" },
+        { "label": { "uz": "O'lcham", "ru": "Размер" }, "value": "1200 × 600 mm" },
+        { "label": { "uz": "Harorat", "ru": "Температура" }, "value": "−70…+75°C" }
+      ],
+      "features": [
+        { "uz": "Deformatsiyaga chidamli — issiq pol uchun", "ru": "Устойчив к деформации — для тёплого пола" },
+        { "uz": "Suv shimmaydi, chirimaydi", "ru": "Не впитывает воду, не гниёт" },
+        { "uz": "Shpunt chet — sovuq ko'priksiz montaj", "ru": "Кромка шпунт — монтаж без мостиков холода" },
+        { "uz": "Yonuvchanlik darajasi past", "ru": "Низкая горючесть" }
+      ]
+    },
+    {
+      "slug": "xps-24-25-standart",
+      "cat": "xps",
+      "badge": "",
+      "image": "/img/product-1.jpg",
+      "price": 0,
+      "unit": { "uz": "qadoq", "ru": "упаковка" },
+      "published": true,
+      "name": { "uz": "XPS 24–25 «Standart»", "ru": "XPS 24–25 «Стандарт»" },
+      "short": {
+        "uz": "Arzonroq variant: devor, tom va cherdak izolyatsiyasi uchun.",
+        "ru": "Более доступный вариант: для утепления стен, кровли и чердака."
+      },
+      "description": {
+        "uz": "XPS 24–25 «Standart» — yuk tushmaydigan yuzalarni izolyatsiya qilish uchun tejamkor yechim. Devor, fasad, tom va cherdakda issiqlikni yaxshi ushlaydi, yengil va kesish oson.\n\nKatta hajmdagi obyektlar uchun qulay: narxi 30–35 plotnostli plitadan arzonroq, issiqlik o'tkazuvchanligi esa past darajada qoladi.",
+        "ru": "XPS 24–25 «Стандарт» — экономичное решение для поверхностей без нагрузки. Хорошо держит тепло на стенах, фасаде, кровле и чердаке, лёгкий и легко режется.\n\nУдобен для больших объектов: дешевле плит плотностью 30–35, при этом теплопроводность остаётся низкой."
+      },
+      "specs": [
+        { "label": { "uz": "Plotnost", "ru": "Плотность" }, "value": "24–25 kg/m³" },
+        { "label": { "uz": "Qalinlik", "ru": "Толщина" }, "value": "20–100 mm" },
+        { "label": { "uz": "O'lcham", "ru": "Размер" }, "value": "1200 × 600 mm" },
+        { "label": { "uz": "Harorat", "ru": "Температура" }, "value": "−70…+75°C" }
+      ],
+      "features": [
+        { "uz": "Arzonroq — katta hajmlar uchun qulay", "ru": "Дешевле — выгодно на больших объёмах" },
+        { "uz": "Devor, tom va cherdak uchun", "ru": "Для стен, кровли и чердака" },
+        { "uz": "Yengil, kesish oson", "ru": "Лёгкий, легко режется" },
+        { "uz": "Namlikka chidamli", "ru": "Влагостойкий" }
+      ]
+    },
+    {
+      "slug": "sintifon-folgali",
+      "cat": "sint",
+      "badge": "HIT",
+      "image": "/img/product-2.jpg",
+      "price": 0,
+      "unit": { "uz": "rulon", "ru": "рулон" },
+      "published": true,
+      "name": { "uz": "Sintifon folgali", "ru": "Синтифон фольгированный" },
+      "short": {
+        "uz": "Alyuminiy folga qoplamali penopolietilen. Issiqlikni qaytaradi, namlikdan himoya qiladi.",
+        "ru": "Вспененный полиэтилен с алюминиевой фольгой. Отражает тепло, защищает от влаги."
+      },
+      "description": {
+        "uz": "Folgali sintifon — bir tomoni alyuminiy folga bilan qoplangan penopolietilen. Folga issiqlik nurlarini qaytaradi: qishda issiqlikni xonada ushlaydi, yozda tom va devordan kiradigan jaziramani to'sadi.\n\nTom, cherdak, devorlarning ichki tomoni, hammom va saunalar uchun mos. Bug' o'tkazmaydi, shuning uchun bir vaqtning o'zida gidro- va bug' izolyatsiyasi vazifasini ham bajaradi.",
+        "ru": "Фольгированный синтифон — вспененный полиэтилен, с одной стороны покрытый алюминиевой фольгой. Фольга отражает тепловое излучение: зимой удерживает тепло в помещении, летом защищает от жары через кровлю и стены.\n\nПодходит для кровли, чердака, внутренней стороны стен, бань и саун. Не пропускает пар, поэтому одновременно работает как гидро- и пароизоляция."
+      },
+      "specs": [
+        { "label": { "uz": "Qoplama", "ru": "Покрытие" }, "value": "Al folga" },
+        { "label": { "uz": "Qalinlik", "ru": "Толщина" }, "value": "2–10 mm" },
+        { "label": { "uz": "Eni", "ru": "Ширина" }, "value": "1 m" },
+        { "label": { "uz": "Harorat", "ru": "Температура" }, "value": "−70…+75°C" }
+      ],
+      "features": [
+        { "uz": "Issiqlik nurlarini qaytaradi", "ru": "Отражает тепловое излучение" },
+        { "uz": "Bug' va namlikdan himoya", "ru": "Защита от пара и влаги" },
+        { "uz": "Yengil va montaji oson", "ru": "Лёгкий и простой монтаж" },
+        { "uz": "Uzoq xizmat muddati", "ru": "Долгий срок службы" }
+      ]
+    },
+    {
+      "slug": "sintifon-styajka-uchun",
+      "cat": "sint",
+      "badge": "",
+      "image": "/img/product-3.jpg",
+      "price": 0,
+      "unit": { "uz": "rulon", "ru": "рулон" },
+      "published": true,
+      "name": { "uz": "Sintifon styajka uchun", "ru": "Синтифон под стяжку" },
+      "short": {
+        "uz": "Styajkadan oldin yotqiziladi: poldan sovuq o'tmaydi, tovushni yutadi.",
+        "ru": "Укладывается перед стяжкой: не пропускает холод, поглощает шум."
+      },
+      "description": {
+        "uz": "Styajka uchun sintifon — qoplamasiz oq penopolietilen polotno. U betonli styajka quyishdan oldin yotqiziladi va poldan sovuq hamda qo'shnilarga zarba shovqini o'tishini kamaytiradi.\n\nKvartira va xususiy uylarda, laminat va parket ostida ham qo'llaniladi. Elastik, tez yotqiziladi va vaqt o'tishi bilan shaklini yo'qotmaydi.",
+        "ru": "Синтифон под стяжку — белое полотно из вспененного полиэтилена без покрытия. Укладывается перед заливкой стяжки и снижает проникновение холода и ударного шума к соседям.\n\nПрименяется в квартирах и частных домах, под ламинат и паркет. Эластичный, быстро укладывается и не теряет форму со временем."
+      },
+      "specs": [
+        { "label": { "uz": "Qoplama", "ru": "Покрытие" }, "value": "—" },
+        { "label": { "uz": "Qalinlik", "ru": "Толщина" }, "value": "5–10 mm" },
+        { "label": { "uz": "Eni", "ru": "Ширина" }, "value": "1 m" },
+        { "label": { "uz": "Qo'llanish", "ru": "Применение" }, "value": "Pol / Пол" }
+      ],
+      "features": [
+        { "uz": "Zarba shovqinini yutadi", "ru": "Поглощает ударный шум" },
+        { "uz": "Poldan sovuq o'tmaydi", "ru": "Не пропускает холод от пола" },
+        { "uz": "Laminat va parket ostiga ham mos", "ru": "Подходит под ламинат и паркет" },
+        { "uz": "Tez yotqiziladi", "ru": "Быстрая укладка" }
+      ]
+    },
+    {
+      "slug": "laminatsiyalangan-polotno",
+      "cat": "sint",
+      "badge": "",
+      "image": "/img/lamin.svg",
+      "price": 0,
+      "unit": { "uz": "rulon", "ru": "рулон" },
+      "published": true,
+      "name": { "uz": "Laminatsiyalangan polotno", "ru": "Ламинированное полотно" },
+      "short": {
+        "uz": "Laminat qoplamali polotno — mustahkamlik va namlikdan himoya.",
+        "ru": "Полотно с ламинацией — прочность и защита от влаги."
+      },
+      "description": {
+        "uz": "Laminatsiyalangan polotno — penopolietilen ustiga mustahkam plyonka laminatsiya qilingan material. Qoplama yirtilishga chidamlilikni oshiradi va namlikdan himoya qiladi.\n\nBizning zavodda har bir rulon nazorat ostida tayyorlanadi. Qurilishda, qadoqlashda va maxsus buyurtmalar uchun qo'llaniladi.",
+        "ru": "Ламинированное полотно — вспененный полиэтилен с прочной ламинированной плёнкой. Покрытие повышает прочность на разрыв и защищает от влаги.\n\nНа нашем заводе каждый рулон изготавливается под контролем. Применяется в строительстве, упаковке и под специальные заказы."
+      },
+      "specs": [
+        { "label": { "uz": "Qoplama", "ru": "Покрытие" }, "value": "Laminat" },
+        { "label": { "uz": "Qalinlik", "ru": "Толщина" }, "value": "2–10 mm" },
+        { "label": { "uz": "Eni", "ru": "Ширина" }, "value": "1 m" },
+        { "label": { "uz": "Qo'llanish", "ru": "Применение" }, "value": "Universal" }
+      ],
+      "features": [
+        { "uz": "Yirtilishga chidamli", "ru": "Устойчиво к разрыву" },
+        { "uz": "Namlikdan himoya", "ru": "Защита от влаги" },
+        { "uz": "Buyurtma bo'yicha o'lcham", "ru": "Размеры под заказ" }
+      ]
+    },
+    {
+      "slug": "sport-mati-uchun-sintifon",
+      "cat": "sint",
+      "badge": "NEW",
+      "image": "/img/product-4.jpg",
+      "price": 0,
+      "unit": { "uz": "dona", "ru": "шт" },
+      "published": true,
+      "name": { "uz": "Sport mati uchun sintifon", "ru": "Синтифон для спортматов" },
+      "short": {
+        "uz": "5 sm qalinlikdagi zich sintifon — sport matlari va gimnastika uchun.",
+        "ru": "Плотный синтифон толщиной 5 см — для спортивных и гимнастических матов."
+      },
+      "description": {
+        "uz": "Sport matlari uchun maxsus tayyorlangan 5 sm qalinlikdagi zich sintifon. Zarbani yaxshi yutadi, shaklini saqlaydi va uzoq xizmat qiladi.\n\nSport zallar, gimnastika, kurash va bolalar maydonchalari uchun matlar ishlab chiqaruvchilarga ulgurji yetkazib beramiz.",
+        "ru": "Плотный синтифон толщиной 5 см, изготовленный специально для спортивных матов. Хорошо гасит удар, держит форму и долго служит.\n\nОптом поставляем производителям матов для спортзалов, гимнастики, борьбы и детских площадок."
+      },
+      "specs": [
+        { "label": { "uz": "Qalinlik", "ru": "Толщина" }, "value": "50 mm" },
+        { "label": { "uz": "Plotnost", "ru": "Плотность" }, "value": "High" },
+        { "label": { "uz": "Qo'llanish", "ru": "Применение" }, "value": "Sport" },
+        { "label": { "uz": "O'lcham", "ru": "Размер" }, "value": "Buyurtma / Заказ" }
+      ],
+      "features": [
+        { "uz": "Zarbani yaxshi yutadi", "ru": "Хорошо гасит удар" },
+        { "uz": "Shaklini saqlaydi", "ru": "Держит форму" },
+        { "uz": "Ulgurji yetkazib berish", "ru": "Оптовые поставки" }
+      ]
+    },
+    {
+      "slug": "skoba-dyubel",
+      "cat": "acc",
+      "badge": "NEW",
+      "image": "/img/product-5.jpg",
+      "price": 0,
+      "unit": { "uz": "dona", "ru": "шт" },
+      "published": true,
+      "name": { "uz": "Skoba (dyubel-zontik)", "ru": "Скоба (дюбель-зонтик)" },
+      "short": {
+        "uz": "Penopleks plitalarini devorga mustahkam o'rnatish uchun. Montajni tezlashtiradi.",
+        "ru": "Для надёжного крепления плит пеноплекса к стене. Ускоряет монтаж."
+      },
+      "description": {
+        "uz": "Skoba (dyubel-zontik) — XPS va boshqa izolyatsiya plitalarini devorga mexanik mahkamlash uchun plastik dyubel. Keng «zontik» qalpoq plitani bosib turadi, shuning uchun u shamol va vaqt o'tishi bilan ko'chib ketmaydi.\n\nMontajni tezlashtiradi va qurilishda vaqt hamda mehnatni tejaydi. Turli uzunliklarda mavjud.",
+        "ru": "Скоба (дюбель-зонтик) — пластиковый дюбель для механического крепления плит XPS и другого утеплителя к стене. Широкая шляпка-«зонтик» прижимает плиту, поэтому она не смещается от ветра и со временем.\n\nУскоряет монтаж и экономит время и труд на стройке. Доступны разные длины."
+      },
+      "specs": [
+        { "label": { "uz": "Qo'llanish", "ru": "Применение" }, "value": "XPS" },
+        { "label": { "uz": "Uzunlik", "ru": "Длина" }, "value": "80–200 mm" },
+        { "label": { "uz": "Material", "ru": "Материал" }, "value": "Plastik" },
+        { "label": { "uz": "Savdo", "ru": "Продажа" }, "value": "Opt / Опт" }
+      ],
+      "features": [
+        { "uz": "Plitani mustahkam ushlaydi", "ru": "Надёжно держит плиту" },
+        { "uz": "Montajni tezlashtiradi", "ru": "Ускоряет монтаж" },
+        { "uz": "Turli uzunliklar", "ru": "Разные длины" }
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "slug": "fundament-va-sokol",
+      "zone": "fund",
+      "image": "/img/zavod-2.jpg",
+      "thickness": "50–100 mm",
+      "products": ["xps-30-35-ekstrim", "skoba-dyubel"],
+      "name": { "uz": "Fundament va sokol izolyatsiyasi", "ru": "Утепление фундамента и цоколя" },
+      "text": {
+        "uz": "Tuproq bosimi va namlikka doimiy duch keladi — faqat yuqori plotnostli XPS 30–35 tavsiya etiladi. Plitalar suv shimmaydi va chirimaydi.",
+        "ru": "Постоянно испытывает давление грунта и влагу — рекомендуем только XPS 30–35 высокой плотности. Плиты не впитывают воду и не гниют."
+      },
+      "description": {
+        "uz": "Uydan chiqib ketadigan issiqlikning sezilarli qismi fundament va sokol orqali yo'qoladi. Izolyatsiya qilinmagan fundament qishda muzlaydi, namlik tortadi va vaqt o'tishi bilan yorilib ketadi.\n\nFundament uchun XPS 30–35 «Ekstrim» plitalari ishlatiladi: ular tuproq bosimiga chidaydi va suv shimmaydi. Plitalar fundamentning tashqi devoriga elim bilan yopishtiriladi, sokol qismida esa skoba bilan qo'shimcha mahkamlanadi. Tavsiya etiladigan qalinlik — iqlim va loyihaga qarab 50–100 mm.",
+        "ru": "Значительная часть тепла уходит из дома через фундамент и цоколь. Неутеплённый фундамент промерзает зимой, набирает влагу и со временем трескается.\n\nДля фундамента используют плиты XPS 30–35 «Экстрим»: они выдерживают давление грунта и не впитывают воду. Плиты приклеивают к наружной стене фундамента, а в зоне цоколя дополнительно крепят скобами. Рекомендуемая толщина — 50–100 мм в зависимости от климата и проекта."
+      }
+    },
+    {
+      "slug": "pol-va-issiq-pol",
+      "zone": "floor",
+      "image": "/img/product-3.jpg",
+      "thickness": "XPS 20–50 mm · sintifon 5–10 mm",
+      "products": ["xps-30-35-ekstrim", "sintifon-styajka-uchun"],
+      "name": { "uz": "Pol va issiq pol izolyatsiyasi", "ru": "Утепление пола и тёплого пола" },
+      "text": {
+        "uz": "Styajka ostiga XPS 30–35 deformatsiyaga chidamli asos beradi. Kvartirada esa sintifon yetarli — sovuq va shovqin o'tmaydi.",
+        "ru": "Под стяжку XPS 30–35 даёт основание, устойчивое к деформации. В квартире достаточно синтифона — не пропускает холод и шум."
+      },
+      "description": {
+        "uz": "Issiq pol tizimida izolyatsiya issiqlikni pastga emas, xonaga yo'naltiradi — bu elektr yoki gaz sarfini sezilarli kamaytiradi. Buning uchun styajka ostiga yukka chidamli XPS 30–35 plitalari yotqiziladi.\n\nKvartiralarda va laminat ostida qalinligi 5–10 mm bo'lgan sintifon yetarli: u poldan keladigan sovuqni to'sadi va qo'shnilarga zarba shovqini o'tishini kamaytiradi.",
+        "ru": "В системе тёплого пола утеплитель направляет тепло в комнату, а не вниз — это заметно снижает расход электричества или газа. Для этого под стяжку укладывают плиты XPS 30–35, выдерживающие нагрузку.\n\nВ квартирах и под ламинат достаточно синтифона толщиной 5–10 мм: он блокирует холод от пола и снижает ударный шум для соседей."
+      }
+    },
+    {
+      "slug": "devor-va-fasad",
+      "zone": "wall",
+      "image": "/img/zavod-1.jpg",
+      "thickness": "50–100 mm",
+      "products": ["xps-24-25-standart", "skoba-dyubel", "sintifon-folgali"],
+      "name": { "uz": "Devor va fasad izolyatsiyasi", "ru": "Утепление стен и фасада" },
+      "text": {
+        "uz": "Tashqi devorga XPS plitalar skoba bilan mahkamlanadi. Ichki tomondan folgali sintifon issiqlikni xonaga qaytaradi.",
+        "ru": "На наружную стену плиты XPS крепятся скобами. Изнутри фольгированный синтифон отражает тепло обратно в комнату."
+      },
+      "description": {
+        "uz": "Devorlar orqali uyning issiqligining eng katta qismi yo'qoladi. Fasadni tashqi tomondan XPS plitalar bilan qoplash devorni sovuqdan himoya qiladi va shudring nuqtasini devordan tashqariga chiqaradi — natijada devor quruq qoladi.\n\nPlitalar elim va skoba (dyubel-zontik) bilan mahkamlanadi, so'ngra suvoq yoki boshqa pardoz qilinadi. Ichki tomondan izolyatsiya kerak bo'lsa, folgali sintifon qulay yechim.",
+        "ru": "Через стены теряется наибольшая часть тепла дома. Утепление фасада снаружи плитами XPS защищает стену от холода и выносит точку росы за пределы стены — стена остаётся сухой.\n\nПлиты крепят клеем и скобами (дюбель-зонтик), затем штукатурят или делают другую отделку. Если нужно утепление изнутри, удобное решение — фольгированный синтифон."
+      }
+    },
+    {
+      "slug": "tom-va-cherdak",
+      "zone": "roof",
+      "image": "/img/zavod-3.jpg",
+      "thickness": "XPS 30–50 mm · sintifon 5–10 mm",
+      "products": ["sintifon-folgali", "xps-24-25-standart", "laminatsiyalangan-polotno"],
+      "name": { "uz": "Tom va cherdak izolyatsiyasi", "ru": "Утепление кровли и чердака" },
+      "text": {
+        "uz": "Yozda issiqning asosiy qismi tomdan kiradi. Folgali sintifon nurni qaytaradi, tekis tomlar uchun esa XPS ishlatiladi.",
+        "ru": "Летом основная часть жары идёт через кровлю. Фольгированный синтифон отражает излучение, для плоских крыш — XPS."
+      },
+      "description": {
+        "uz": "Issiq havo yuqoriga ko'tariladi, shuning uchun qishda issiqlik tom orqali, yozda esa jazirama aynan tomdan kiradi. O'zbekiston iqlimida tom izolyatsiyasi ham isitish, ham konditsioner xarajatlarini kamaytiradi.\n\nQiya tomlarda folgali sintifon issiqlik nurlarini qaytaradi va bug' izolyatsiyasi vazifasini bajaradi. Tekis tomlar va cherdak polida esa XPS plitalari ishlatiladi.",
+        "ru": "Тёплый воздух поднимается вверх, поэтому зимой тепло уходит через кровлю, а летом жара проникает именно через неё. В климате Узбекистана утепление кровли снижает расходы и на отопление, и на кондиционер.\n\nНа скатных крышах фольгированный синтифон отражает тепловое излучение и работает как пароизоляция. Для плоских крыш и пола чердака используют плиты XPS."
+      }
+    }
+  ],
+  "calc": [
+    {
+      "id": "xps-30-35",
+      "kind": "board",
+      "sheetArea": 0.72,
+      "name": { "uz": "XPS 30–35", "ru": "XPS 30–35" },
+      "options": [
+        { "mm": 20, "perPack": 20, "price": 0 },
+        { "mm": 30, "perPack": 13, "price": 0 },
+        { "mm": 40, "perPack": 10, "price": 0 },
+        { "mm": 50, "perPack": 8, "price": 0 },
+        { "mm": 100, "perPack": 4, "price": 0 }
+      ]
+    },
+    {
+      "id": "xps-24-25",
+      "kind": "board",
+      "sheetArea": 0.72,
+      "name": { "uz": "XPS 24–25", "ru": "XPS 24–25" },
+      "options": [
+        { "mm": 20, "perPack": 20, "price": 0 },
+        { "mm": 30, "perPack": 13, "price": 0 },
+        { "mm": 50, "perPack": 8, "price": 0 },
+        { "mm": 100, "perPack": 4, "price": 0 }
+      ]
+    },
+    {
+      "id": "sintifon",
+      "kind": "roll",
+      "sheetArea": 0,
+      "name": { "uz": "Sintifon", "ru": "Синтифон" },
+      "options": [
+        { "mm": 3, "perPack": 50, "price": 0 },
+        { "mm": 5, "perPack": 25, "price": 0 },
+        { "mm": 8, "perPack": 15, "price": 0 },
+        { "mm": 10, "perPack": 15, "price": 0 }
+      ]
+    }
+  ],
+  "advantages": [
+    { "icon": "factory", "title": { "uz": "O'z zavodimiz", "ru": "Собственный завод" }, "text": { "uz": "2013-yildan beri ishlab chiqaramiz. Vositachilarsiz — zavod narxida.", "ru": "Производим с 2013 года. Без посредников — по заводской цене." } },
+    { "icon": "box", "title": { "uz": "Bepul namuna", "ru": "Бесплатный образец" }, "text": { "uz": "Abrazets kerakmi? Sifatni oldindan sinab ko'ring — namunani bepul beramiz.", "ru": "Нужен образец? Проверьте качество заранее — дадим бесплатно." } },
+    { "icon": "truck", "title": { "uz": "Bepul yetkazib berish", "ru": "Бесплатная доставка" }, "text": { "uz": "Fura hajmidagi buyurtmalar uchun O'zbekiston bo'ylab bepul yetkazamiz.", "ru": "Для заказов объёмом в фуру — бесплатная доставка по Узбекистану." } },
+    { "icon": "leaf", "title": { "uz": "Toza xomashyo", "ru": "Чистое сырьё" }, "text": { "uz": "Faqat sifatli xomashyo — hajmni yaxshi ushlaydi, uzoq yillar xizmat qiladi.", "ru": "Только качественное сырьё — держит объём и служит долгие годы." } },
+    { "icon": "thermo", "title": { "uz": "−70°C dan +75°C gacha", "ru": "От −70°C до +75°C" }, "text": { "uz": "Qishning sovug'i va yozning jaziramasida xossalarini yo'qotmaydi.", "ru": "Сохраняет свойства и в зимний мороз, и в летнюю жару." } },
+    { "icon": "globe", "title": { "uz": "Eksport", "ru": "Экспорт" }, "text": { "uz": "Qozog'iston, Tojikiston, Turkmaniston va Qirg'izistonga eksport qilamiz.", "ru": "Экспортируем в Казахстан, Таджикистан, Туркменистан и Кыргызстан." } }
+  ],
+  "steps": [
+    { "title": { "uz": "Ariza", "ru": "Заявка" }, "text": { "uz": "Qo'ng'iroq qiling yoki Telegramga yozing — hajm va obyektni aytasiz.", "ru": "Позвоните или напишите в Telegram — расскажите об объёме и объекте." } },
+    { "title": { "uz": "Hisob-kitob", "ru": "Расчёт" }, "text": { "uz": "Mutaxassis kerakli mahsulot va miqdorni hisoblab, narxni beradi.", "ru": "Специалист подберёт продукцию, рассчитает количество и цену." } },
+    { "title": { "uz": "Ishlab chiqarish", "ru": "Производство" }, "text": { "uz": "Kerakli o'lcham va qalinlikda zavodda tayyorlanadi.", "ru": "Изготавливаем на заводе в нужном размере и толщине." } },
+    { "title": { "uz": "Yetkazish", "ru": "Доставка" }, "text": { "uz": "12 viloyat bo'ylab dastavka, fura hajmida — bepul.", "ru": "Доставка по 12 областям, от объёма фуры — бесплатно." } }
+  ],
+  "gallery": [
+    { "image": "/img/zavod-1.jpg", "caption": { "uz": "Ishlab chiqarish liniyasi", "ru": "Производственная линия" } },
+    { "image": "/img/zavod-2.jpg", "caption": { "uz": "XPS plitalar", "ru": "Плиты XPS" } },
+    { "image": "/img/zavod-3.jpg", "caption": { "uz": "Sintifon rulonlar", "ru": "Рулоны синтифона" } },
+    { "image": "/img/zavod-4.jpg", "caption": { "uz": "Ombor va yuklash", "ru": "Склад и отгрузка" } },
+    { "image": "/img/zavod-5.jpg", "caption": { "uz": "Laminatsiya", "ru": "Ламинация" } }
+  ],
+  "delivery": {
+    "title": { "uz": "O'zbekiston bo'ylab *bepul* yetkazish", "ru": "По всему Узбекистану — *бесплатно*" },
+    "text": {
+      "uz": "Fura hajmida buyurtma bersangiz, yetkazib berish biz tomondan. 12 ta viloyatga muntazam dastavka va qo'shni davlatlarga eksport.",
+      "ru": "При заказе объёмом в фуру доставка за наш счёт. Регулярная доставка в 12 областей и экспорт в соседние страны."
+    },
+    "routes": [
+      { "code": "UZ", "name": { "uz": "O'zbekiston · 12 viloyat", "ru": "Узбекистан · 12 областей" } },
+      { "code": "KZ", "name": { "uz": "Qozog'iston", "ru": "Казахстан" } },
+      { "code": "TJ", "name": { "uz": "Tojikiston", "ru": "Таджикистан" } },
+      { "code": "TM", "name": { "uz": "Turkmaniston", "ru": "Туркменистан" } },
+      { "code": "KG", "name": { "uz": "Qirg'iziston", "ru": "Кыргызстан" } }
+    ]
+  },
+  "faq": [
+    { "q": { "uz": "Penopleks (XPS) qaysi plotnostini tanlash kerak?", "ru": "Какую плотность пеноплекса (XPS) выбрать?" }, "a": { "uz": "Yuk tushadigan joylar — issiq pol, styajka osti, fundament va sokol uchun XPS 30–35. Devor, tom va cherdak uchun arzonroq XPS 24–25 ham yetarli.", "ru": "Для нагруженных мест — тёплого пола, под стяжку, фундамента и цоколя — XPS 30–35. Для стен, кровли и чердака достаточно более доступного XPS 24–25." } },
+    { "q": { "uz": "Bepul namuna olsa bo'ladimi?", "ru": "Можно получить бесплатный образец?" }, "a": { "uz": "Ha. Telefon yoki Telegram orqali murojaat qiling — mahsulot namunasini (abrazets) bepul beramiz, sifatni oldindan ko'rib olasiz.", "ru": "Да. Свяжитесь по телефону или в Telegram — дадим образец продукции бесплатно, чтобы вы заранее оценили качество." } },
+    { "q": { "uz": "Yetkazib berish qanday amalga oshiriladi?", "ru": "Как осуществляется доставка?" }, "a": { "uz": "12 ta viloyatga muntazam yetkazib beramiz. Fura hajmidagi buyurtmalar uchun yetkazish bepul. Qozog'iston, Tojikiston, Turkmaniston va Qirg'izistonga eksport ham qilamiz.", "ru": "Регулярно доставляем в 12 областей. Для заказов объёмом в фуру доставка бесплатная. Также экспортируем в Казахстан, Таджикистан, Туркменистан и Кыргызстан." } },
+    { "q": { "uz": "Kam miqdorda sotib olsa bo'ladimi?", "ru": "Можно купить в небольшом количестве?" }, "a": { "uz": "Ha, ulgurji va chakana savdo mavjud. Bir xonani ta'mirlash uchun ham, katta obyekt uchun ham buyurtma qabul qilamiz.", "ru": "Да, есть опт и розница. Принимаем заказы и для ремонта одной комнаты, и для крупного объекта." } },
+    { "q": { "uz": "Nostandart o'lcham yoki qalinlik qilib berasizmi?", "ru": "Делаете нестандартные размеры или толщину?" }, "a": { "uz": "Ha, o'zimiz ishlab chiqarganimiz uchun kerakli o'lcham va qalinlikni buyurtma asosida tayyorlab beramiz.", "ru": "Да, так как мы сами производим, изготовим нужный размер и толщину под заказ." } },
+    { "q": { "uz": "Material qancha xizmat qiladi?", "ru": "Сколько служит материал?" }, "a": { "uz": "XPS va sintifon chirimaydi, mog'or bosmaydi va −70°C dan +75°C gacha xossalarini saqlaydi. To'g'ri montaj qilinganda o'nlab yillar xizmat qiladi.", "ru": "XPS и синтифон не гниют, не плесневеют и сохраняют свойства от −70°C до +75°C. При правильном монтаже служат десятки лет." } }
+  ]
+}

@@ -1,0 +1,7 @@
+.env
+.env*.local
+.admin-password.txt
+node_modules
+.next
+public/uploads
+*.tsbuildinfo
