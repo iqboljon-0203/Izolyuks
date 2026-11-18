@@ -33,7 +33,7 @@ Saytning texnik SEO qismi tayyor: sitemap, robots.txt, hreflang (uz/ru), JSON-LD
 5. **URL Inspection** → quyidagilar uchun **Request indexing**:
    - `https://izolyuks.uz/uz`, `https://izolyuks.uz/ru`
    - `https://izolyuks.uz/uz/mahsulotlar`, `https://izolyuks.uz/ru/mahsulotlar`
-   - `https://izolyuks.uz/uz/mahsulotlar/xps-30-35-ekstrim`
+   - `https://izolyuks.uz/uz/mahsulotlar/xps-premium`
    - `https://izolyuks.uz/uz/mahsulotlar/sintifon-folgali`
 
 ## 2. Yandex Webmaster
@@ -54,16 +54,16 @@ https://business.google.com → **Add business**
 | Nomi | **IZOLYUKS** (Google qoidasi: faqat haqiqiy nom, kalit so'z qo'shmang — aks holda profil bloklanishi mumkin) |
 | Asosiy toifa | Insulation materials store / Магазин теплоизоляционных материалов |
 | Qo'shimcha toifalar | Manufacturer · Building materials supplier · Building materials store |
-| Manzil | Zavod/ombor haqiqiy manzili (aniq ko'cha va uy raqami) |
+| Manzil | Xaritadagi nuqta: 41.313527, 69.180819 (Toshkent). Ko'cha va uy raqamini aniq kiriting |
 | Telefon | +998 99 766 90 99 |
 | Sayt | https://izolyuks.uz/uz |
 | Ish vaqti | Du–Sh 09:00–18:00 (haqiqiysini kiriting) |
 
 **Tavsif (UZ, 750 belgigacha):**
-> IZOLYUKS — 2013-yildan beri Toshkentda XPS penopleks va sintifon (penopolietilen) ishlab chiqaruvchi zavod. Mahsulotlar: XPS 30–35 «Ekstrim» (issiq pol, fundament, sokol uchun), XPS 24–25 (devor va tom uchun), folgali sintifon, styajka ostiga sintifon, laminatsiyalangan polotno, sport matlari uchun 5 sm sintifon va penopleks skobalari. Zavod narxida, ulgurji va chakana savdo. Bepul namuna beramiz. Fura hajmidagi buyurtmalarga O'zbekiston bo'ylab bepul yetkazib berish, Qozog'iston, Tojikiston, Turkmaniston va Qirg'izistonga eksport.
+> IZOLYUKS — 2013-yildan beri Toshkentda XPS penopleks va sintifon (penopolietilen) ishlab chiqaruvchi zavod. Mahsulotlar: XPS PREMIUM (32–36 kg/m³) va XPS STANDARD penopleks, folgali sintifon (2–10 mm), PPI-P qadoqlash polietileni, PPI-OTD va laminatsiyalangan quvur izolyatsiyasi, gidro-bug' izolyatsiya plyonkasi, yakorli skoba va «Parashyut» dyubellari. Zavod narxida, ulgurji va chakana savdo. Bepul namuna beramiz. Fura hajmidagi buyurtmalarga O'zbekiston bo'ylab bepul yetkazib berish, Qozog'iston, Tojikiston, Turkmaniston va Qirg'izistonga eksport.
 
 **Описание (RU):**
-> IZOLYUKS — завод в Ташкенте, с 2013 года производящий пеноплекс XPS и синтифон (вспененный полиэтилен). Продукция: XPS 30–35 «Экстрим» для тёплого пола, фундамента и цоколя, XPS 24–25 для стен и кровли, фольгированный синтифон, синтифон под стяжку, ламинированное полотно, синтифон 5 см для спортивных матов и дюбели-зонтики. Цены завода, опт и розница, бесплатные образцы. Бесплатная доставка по Узбекистану при заказе от фуры, экспорт в Казахстан, Таджикистан, Туркменистан и Кыргызстан.
+> IZOLYUKS — завод в Ташкенте, с 2013 года производящий пеноплекс XPS и синтифон (вспененный полиэтилен). Продукция: пеноплекс XPS PREMIUM (32–36 кг/м³) и XPS STANDARD, синтифон с фольгой (2–10 мм), упаковочный ППИ-П, изоляция труб ППИ-ОТД и ламинированная оболочка, гидро-пароизоляция, якорные скобы и дюбели «Парашют». Цены завода, опт и розница, бесплатные образцы. Бесплатная доставка по Узбекистану при заказе от фуры, экспорт в Казахстан, Таджикистан, Туркменистан и Кыргызстан.
 
 **Mahsulotlar bo'limi:** har bir mahsulotni rasm + sayt havolasi bilan qo'shing (havolalar `https://izolyuks.uz/uz/mahsulotlar/...`).
 
@@ -103,12 +103,12 @@ Har birida kompaniya sahifasi oching va sayt havolasini qoldiring:
 
 - **Instagram bio:** havolani `https://izolyuks.uz` ga almashtiring (hozir t.me havolasi turibdi).
 - **Telegram kanal tavsifi:** `🌐 izolyuks.uz — katalog va narx kalkulyatori`
-- Postlarda mahsulot sahifasiga havola bering, masalan: `izolyuks.uz/uz/mahsulotlar/xps-30-35-ekstrim`
+- Postlarda mahsulot sahifasiga havola bering, masalan: `izolyuks.uz/uz/mahsulotlar/xps-premium`
 
 ## 7. OLX e'lon shabloni
 
-> **Penopleks XPS 30–35 — zavod narxida, Toshkent**
-> IZOLYUKS zavodidan to'g'ridan-to'g'ri. Plotnost 30–35 kg/m³, qalinlik 20–100 mm, o'lcham 1200×600. Issiq pol, fundament, sokol uchun. Ulgurji va chakana, bepul namuna.
+> **Penopleks XPS Premium 32–36 — zavod narxida, Toshkent**
+> IZOLYUKS zavodidan to'g'ridan-to'g'ri. Plotnost 32–36 kg/m³, qalinlik 20–100 mm, o'lcham 1200×600. Issiq pol, fundament, sokol uchun. Ulgurji va chakana, bepul namuna.
 > 📞 +998 99 766 90 99
 > 🌐 Katalog va kalkulyator: izolyuks.uz
 

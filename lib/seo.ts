@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import type { Content, Lang, Product } from './types'
+import { specValue, type Content, type Lang, type Product } from './types'
 import { localeTag } from './i18n'
 
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://izolyuks.uz').replace(/\/$/, '')
@@ -59,6 +59,7 @@ export function orgLd(c: Content, lang: Lang) {
     foundingDate: String(s.foundingYear),
     telephone: s.phone,
     address: { '@type': 'PostalAddress', addressLocality: 'Tashkent', addressCountry: 'UZ', streetAddress: s.address[lang] },
+    ...(s.geo ? { geo: { '@type': 'GeoCoordinates', latitude: s.geo.lat, longitude: s.geo.lng }, hasMap: s.mapUrl } : {}),
     areaServed: ['UZ', 'KZ', 'TJ', 'TM', 'KG'],
     openingHours: 'Mo-Sa 09:00-18:00',
     priceRange: '$$',
@@ -106,7 +107,7 @@ export function productLd(p: Product, lang: Lang) {
     brand: { '@type': 'Brand', name: 'IZOLYUKS' },
     manufacturer: { '@id': `${SITE_URL}/#org` },
     url: abs(`/${lang}/mahsulotlar/${p.slug}`),
-    additionalProperty: p.specs.map((s) => ({ '@type': 'PropertyValue', name: s.label[lang], value: s.value })),
+    additionalProperty: p.specs.map((s) => ({ '@type': 'PropertyValue', name: s.label[lang], value: specValue(s.value, lang) })),
   }
   if (p.price > 0) {
     data.offers = {

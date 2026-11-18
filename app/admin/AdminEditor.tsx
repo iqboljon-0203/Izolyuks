@@ -28,10 +28,11 @@ const LABELS: Record<string, string> = {
   mm: 'Qalinlik (mm)', perPack: 'Qadoqdagi listlar soni / rulondagi m²', title: 'Sarlavha', eyebrow: 'Ustki kichik yozuv', lead: 'Tavsif', icon: 'Ikonka', caption: 'Izoh', q: 'Savol', a: 'Javob', routes: "Yo'nalishlar", code: 'Kod',
   legalName: 'Yuridik nomi', foundingYear: 'Tashkil topgan yil', phone: 'Telefon (+998XXXXXXXXX)', phoneDisplay: "Telefon (saytda ko'rinishi)", phoneLabel: 'Telefon izohi', telegram: 'Telegram username (@siz)', instagram: 'Instagram username',
   address: 'Manzil', mapUrl: 'Xarita havolasi', mapEmbed: 'Xarita (iframe) havolasi', workHours: 'Ish vaqti', keywords: 'Kalit so‘zlar (vergul bilan)',
+  images: 'Qo‘shimcha rasmlar (galereya)', geo: 'Xaritadagi nuqta', lat: 'Kenglik (lat)', lng: 'Uzunlik (lng)', product: 'Buyurtmada tanlanadigan mahsulot (slug)',
 }
 const LONG = new Set(['description', 'a', 'text', 'lead', 'short', 'seoDescription'])
 const SELECTS: Record<string, { v: string; t: string }[]> = {
-  cat: [{ v: 'xps', t: 'XPS penopleks' }, { v: 'sint', t: 'Sintifon' }, { v: 'acc', t: 'Aksessuar' }],
+  cat: [{ v: 'xps', t: 'XPS penopleks' }, { v: 'sint', t: 'Sintifon' }, { v: 'pipe', t: 'Quvur izolyatsiyasi' }, { v: 'film', t: 'Plyonka' }, { v: 'acc', t: 'Mahkamlagich' }],
   zone: [{ v: 'fund', t: 'Fundament' }, { v: 'floor', t: 'Pol' }, { v: 'wall', t: 'Devor' }, { v: 'roof', t: 'Tom' }],
   kind: [{ v: 'board', t: 'Plita (list)' }, { v: 'roll', t: 'Rulon' }],
   icon: ['factory', 'box', 'truck', 'leaf', 'thermo', 'globe', 'phone', 'home', 'building', 'clock'].map((v) => ({ v, t: v })),
@@ -45,7 +46,7 @@ function itemTitle(v: Any, i: number) {
   if (pick) return pick
   if (typeof v?.mm === 'number') return `${v.mm} mm`
   if (v?.code) return v.code
-  if (v?.value) return v.value
+  if (typeof v?.value === 'string' && v.value) return v.value
   if (isL(v)) return v.uz || `#${i + 1}`
   return `#${i + 1}`
 }
@@ -118,6 +119,23 @@ function Field({ k, value, path, set, root }: { k: string | number; value: Any; 
   const key = typeof k === 'string' ? k : ''
 
   if (key === 'image') return <div className="ad-f"><span className="ad-l">{label(k)}</span><ImageField value={value} onChange={(v) => set(path, v)} /></div>
+
+  if (key === 'images') {
+    const list: string[] = Array.isArray(value) ? value : []
+    return (
+      <div className="ad-f"><span className="ad-l">{label(k)}</span>
+        <div className="ad-arr">
+          {list.map((src, i) => (
+            <div key={i} className="ad-flat">
+              <ImageField value={src} onChange={(v) => set([...path, i], v)} />
+              <span className="ad-tools"><button type="button" className="danger" title="O‘chirish" onClick={() => set(path, list.filter((_, x) => x !== i))}>✕</button></span>
+            </div>
+          ))}
+          <button type="button" className="btn btn-line btn-sm ad-add" onClick={() => set(path, [...list, ''])}>+ Rasm qo‘shish</button>
+        </div>
+      </div>
+    )
+  }
 
   if (key === 'products' && Array.isArray(value) && path[0] === 'solutions') {
     return (

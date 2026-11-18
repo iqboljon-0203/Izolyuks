@@ -1,15 +1,15 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import PrefillButton from '@/components/PrefillButton'
+import ProductGallery from '@/components/ProductGallery'
 import ProductCard, { PriceLine } from '@/components/ProductCard'
 import { CalcSection, ContactSection, Crumbs } from '@/components/Sections'
 import { Icon, JsonLd, Paras } from '@/components/ui'
 import { getContent, published } from '@/lib/content'
 import { getDict } from '@/lib/i18n'
 import { breadcrumbLd, pageMeta, productLd } from '@/lib/seo'
-import { isLang, LANGS, type Lang } from '@/lib/types'
+import { isLang, LANGS, specValue, type Lang } from '@/lib/types'
 
 type P = { params: Promise<{ lang: string; slug: string }> }
 
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { p, lang } = r
   const d = getDict(lang)
   const title = p.seoTitle?.[lang]?.trim() || `${p.name[lang]} — ${lang === 'uz' ? 'narxi, xususiyatlari' : 'цена, характеристики'}`
-  const auto = `${p.short[lang]} ${p.specs.map((s) => `${s.label[lang]}: ${s.value}`).join(', ')}. ${d.price.from === 'dan' ? "Zavod narxida, O'zbekiston bo'ylab yetkazish." : 'По цене завода, доставка по Узбекистану.'}`
+  const auto = `${p.short[lang]} ${p.specs.map((s) => `${s.label[lang]}: ${specValue(s.value, lang)}`).join(', ')}. ${d.price.from === 'dan' ? "Zavod narxida, O'zbekiston bo'ylab yetkazish." : 'По цене завода, доставка по Узбекистану.'}`
   const description = p.seoDescription?.[lang]?.trim() || auto
   return pageMeta({ lang, path: `/mahsulotlar/${p.slug}`, title, description: description.slice(0, 300), image: p.image, type: 'article' })
 }
@@ -52,17 +52,14 @@ export default async function ProductPage({ params }: P) {
         <div className="wrap">
           <Crumbs items={[{ name: d.nav.home, href: `/${lang}` }, { name: d.nav.products, href: `/${lang}/mahsulotlar` }, { name: p.name[lang] }]} />
           <div className="pd">
-            <div className="pd-img rv">
-              {p.badge && <span className="badge">{p.badge}</span>}
-              <Image src={p.image} alt={p.name[lang]} fill priority sizes="(max-width: 1020px) 100vw, 620px" />
-            </div>
+            <ProductGallery images={[p.image, ...(p.images ?? [])]} alt={p.name[lang]} badge={p.badge} />
             <div className="pd-info rv">
               <span className="pcat">{d.catalog.cats[p.cat]}</span>
               <h1>{p.name[lang]}</h1>
               <p className="lead">{p.short[lang]}</p>
               <div className="pd-price"><PriceLine p={p} lang={lang} d={d} /></div>
               <div className="specs big">
-                {p.specs.map((s, i) => <div key={i}><small>{s.label[lang]}</small><b>{s.value}</b></div>)}
+                {p.specs.map((s, i) => <div key={i}><small>{s.label[lang]}</small><b>{specValue(s.value, lang)}</b></div>)}
               </div>
               <div className="hero-cta">
                 <PrefillButton className="btn btn-dark" product={p.slug}><span>{d.product.order}</span><Icon name="arrow" /></PrefillButton>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Dict } from '@/lib/i18n'
 import { formatPrice } from '@/lib/i18n'
-import type { Lang, Product } from '@/lib/types'
+import { specValue, type Lang, type Product } from '@/lib/types'
 import { Icon } from './ui'
 
 export function PriceLine({ p, lang, d }: { p: Product; lang: Lang; d: Dict }) {
@@ -32,7 +32,7 @@ export default function ProductCard({ p, lang, d, num }: { p: Product; lang: Lan
         <p>{p.short[lang]}</p>
         <div className="specs">
           {p.specs.slice(0, 4).map((s, i) => (
-            <div key={i}><small>{s.label[lang]}</small><b>{s.value}</b></div>
+            <div key={i}><small>{s.label[lang]}</small><b>{specValue(s.value, lang)}</b></div>
           ))}
         </div>
         <div className="pfoot">

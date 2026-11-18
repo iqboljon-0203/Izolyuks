@@ -2,13 +2,20 @@ export const LANGS = ['uz', 'ru'] as const
 export type Lang = (typeof LANGS)[number]
 export type L = { uz: string; ru: string }
 
-export interface Spec { label: L; value: string }
+/** Qiymat bitta matn (ikkala tilda bir xil, masalan "1200 × 600 mm") yoki UZ/RU juftligi */
+export interface Spec { label: L; value: string | L }
+export const specValue = (v: string | L, lang: Lang) => (typeof v === 'string' ? v : v[lang] || v.uz)
+
+export const CATS = ['xps', 'sint', 'pipe', 'film', 'acc'] as const
+export type Cat = (typeof CATS)[number]
 
 export interface Product {
   slug: string
-  cat: 'xps' | 'sint' | 'acc'
+  cat: Cat
   badge: string
   image: string
+  /** Qo'shimcha rasmlar (mahsulot sahifasidagi galereya) */
+  images?: string[]
   price: number
   unit: L
   published: boolean
@@ -39,6 +46,8 @@ export interface Solution {
 export interface CalcOption { mm: number; perPack: number; price: number }
 export interface CalcMaterial {
   id: string
+  /** Kalkulyatordan buyurtma berilganda tanlanadigan mahsulot (slug) */
+  product?: string
   kind: 'board' | 'roll'
   sheetArea: number
   name: L
@@ -57,6 +66,8 @@ export interface Content {
     address: L
     mapUrl: string
     mapEmbed: string
+    /** Xaritadagi nuqta (Google uchun LocalBusiness geo) */
+    geo?: { lat: number; lng: number }
     workHours: L
   }
   seo: { title: L; description: L; keywords: L }

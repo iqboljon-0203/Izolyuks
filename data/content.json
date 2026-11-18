@@ -14,11 +14,15 @@
       "uz": "Toshkent shahri",
       "ru": "г. Ташкент"
     },
-    "mapUrl": "https://yandex.uz/maps/?text=Izolyuks%20Toshkent",
-    "mapEmbed": "https://yandex.uz/map-widget/v1/?text=Izolyuks%20Toshkent&z=11",
+    "mapUrl": "https://maps.google.com/maps?q=41.313527,69.180819&ll=41.313527,69.180819&z=16",
+    "mapEmbed": "https://maps.google.com/maps?q=41.313527,69.180819&z=16&output=embed",
     "workHours": {
       "uz": "Du–Sh, 09:00–18:00",
       "ru": "Пн–Сб, 09:00–18:00"
+    },
+    "geo": {
+      "lat": 41.313527,
+      "lng": 69.180819
     }
   },
   "seo": {
@@ -74,10 +78,10 @@
   ],
   "products": [
     {
-      "slug": "xps-30-35-ekstrim",
+      "slug": "xps-premium",
       "cat": "xps",
       "badge": "TOP",
-      "image": "/img/product-1.jpg",
+      "image": "/img/products/xps-premium.jpg",
       "price": 0,
       "unit": {
         "uz": "qadoq",
@@ -85,24 +89,24 @@
       },
       "published": true,
       "name": {
-        "uz": "XPS 30–35 «Ekstrim»",
-        "ru": "XPS 30–35 «Экстрим»"
+        "uz": "IZOLYUKS XPS PREMIUM",
+        "ru": "IZOLYUKS XPS PREMIUM"
       },
       "seoTitle": {
-        "uz": "Penopleks XPS 30–35 narxi Toshkentda — issiq pol va fundament uchun",
-        "ru": "Пеноплекс XPS 30–35 в Ташкенте — цена, для тёплого пола и фундамента"
+        "uz": "Penopleks XPS Premium 32–36 kg/m³ — Toshkentda zavod narxida",
+        "ru": "Пеноплекс XPS Premium 32–36 кг/м³ — купить в Ташкенте по цене завода"
       },
       "seoDescription": {
         "uz": "",
         "ru": ""
       },
       "short": {
-        "uz": "Yuqori plotnostli ekstruziyalangan penopolistirol. Issiq pol, fundament va sokol uchun.",
-        "ru": "Экструдированный пенополистирол высокой плотности. Для тёплого пола, фундамента и цоколя."
+        "uz": "Plotnosti 32–36 kg/m³ bo'lgan yuqori mustahkam ekstruziyalangan penopolistirol. Fundament, sokol, devor, pol va tom uchun.",
+        "ru": "Экструдированный пенополистирол повышенной прочности плотностью 32–36 кг/м³. Для фундамента, цоколя, стен, пола и кровли."
       },
       "description": {
-        "uz": "XPS 30–35 «Ekstrim» — zichligi 30–35 kg/m³ bo'lgan ekstruziyalangan penopolistirol plita. Yopiq hujayrali tuzilishi tufayli suvni deyarli shimmaydi, siqilishga va deformatsiyaga chidamli. Shuning uchun u yuk tushadigan joylar — issiq pol, styajka osti, fundament va sokol uchun eng to'g'ri tanlov.\n\nPlitalar chetidagi «shpunt» (zamok) tufayli bir-biriga zich ulanadi va sovuq ko'priklari hosil bo'lmaydi. Material −70°C dan +75°C gacha haroratda xossalarini yo'qotmaydi, chirimaydi va mog'or bosmaydi.",
-        "ru": "XPS 30–35 «Экстрим» — плиты экструдированного пенополистирола плотностью 30–35 кг/м³. Благодаря закрытой ячеистой структуре почти не впитывают воду, устойчивы к сжатию и деформации. Поэтому это лучший выбор для нагруженных мест — тёплого пола, под стяжку, фундамента и цоколя.\n\nКромка «шпунт» обеспечивает плотное соединение плит без мостиков холода. Материал сохраняет свойства от −70°C до +75°C, не гниёт и не покрывается плесенью."
+        "uz": "IZOLYUKS XPS PREMIUM ekstruziyalangan penopolistirol — yopiq hujayrali tuzilishga va 32–36 kg/m³ plotnostga ega yuqori sifatli issiqlik izolyatsiya materiali. Bino va inshootlarni samarali izolyatsiya qilish uchun mo'ljallangan. Fundament, sokol, tashqi devorlar, styajka ostidagi pollar, tom va boshqa qurilish konstruksiyalarini izolyatsiya qilishda qo'llaniladi.\n\nPast issiqlik o'tkazuvchanligi, siqilishga yuqori mustahkamligi, minimal suv shimishi va namlikka chidamliligi bilan ajralib turadi. Ishonchli issiqlik izolyatsiyasini ta'minlaydi, issiqlik yo'qotilishini kamaytiradi va qurilish konstruksiyalarining xizmat muddatini uzaytiradi.\n\nIZOLYUKS XPS PREMIUM — zamonaviy qurilish uchun yuqori mustahkamlik va ishonchli issiqlik izolyatsiyasi.",
+        "ru": "Экструдированный пенополистирол IZOLYUKS XPS PREMIUM — высококачественный теплоизоляционный материал с закрытой ячеистой структурой и плотностью 32–36 кг/м³, предназначенный для эффективной теплоизоляции зданий и сооружений. Применяется для утепления фундаментов, цоколей, наружных стен, полов под стяжку, кровель и других строительных конструкций.\n\nОтличается низкой теплопроводностью, высокой прочностью на сжатие, минимальным водопоглощением и устойчивостью к воздействию влаги. Обеспечивает надёжную теплоизоляцию, снижает теплопотери и способствует увеличению срока службы строительных конструкций.\n\nIZOLYUKS XPS PREMIUM — повышенная прочность и надёжная теплоизоляция для современного строительства."
       },
       "specs": [
         {
@@ -110,14 +114,17 @@
             "uz": "Plotnost",
             "ru": "Плотность"
           },
-          "value": "30–35 kg/m³"
+          "value": "32–36 kg/m³"
         },
         {
           "label": {
-            "uz": "Qalinlik",
-            "ru": "Толщина"
+            "uz": "Tuzilishi",
+            "ru": "Структура"
           },
-          "value": "20–100 mm"
+          "value": {
+            "uz": "Yopiq hujayrali",
+            "ru": "Закрытоячеистая"
+          }
         },
         {
           "label": {
@@ -128,36 +135,36 @@
         },
         {
           "label": {
-            "uz": "Harorat",
-            "ru": "Температура"
+            "uz": "Qalinlik",
+            "ru": "Толщина"
           },
-          "value": "−70…+75°C"
+          "value": "20–100 mm"
         }
       ],
       "features": [
         {
-          "uz": "Deformatsiyaga chidamli — issiq pol uchun",
-          "ru": "Устойчив к деформации — для тёплого пола"
+          "uz": "Siqilishga yuqori mustahkamlik",
+          "ru": "Высокая прочность на сжатие"
         },
         {
-          "uz": "Suv shimmaydi, chirimaydi",
-          "ru": "Не впитывает воду, не гниёт"
+          "uz": "Minimal suv shimishi, namlikka chidamli",
+          "ru": "Минимальное водопоглощение, влагостойкость"
         },
         {
-          "uz": "Shpunt chet — sovuq ko'priksiz montaj",
-          "ru": "Кромка шпунт — монтаж без мостиков холода"
+          "uz": "Past issiqlik o'tkazuvchanlik",
+          "ru": "Низкая теплопроводность"
         },
         {
-          "uz": "Yonuvchanlik darajasi past",
-          "ru": "Низкая горючесть"
+          "uz": "Konstruksiyalar xizmat muddatini uzaytiradi",
+          "ru": "Увеличивает срок службы конструкций"
         }
       ]
     },
     {
-      "slug": "xps-24-25-standart",
+      "slug": "xps-standard",
       "cat": "xps",
       "badge": "",
-      "image": "/img/product-1.jpg",
+      "image": "/img/products/xps-standard.jpg",
       "price": 0,
       "unit": {
         "uz": "qadoq",
@@ -165,24 +172,24 @@
       },
       "published": true,
       "name": {
-        "uz": "XPS 24–25 «Standart»",
-        "ru": "XPS 24–25 «Стандарт»"
+        "uz": "IZOLYUKS XPS STANDARD",
+        "ru": "IZOLYUKS XPS STANDARD"
       },
       "seoTitle": {
-        "uz": "Penopleks XPS 24–25 — devor va tom uchun arzon penopleks, Toshkent",
-        "ru": "Пеноплекс XPS 24–25 — недорогой утеплитель для стен и кровли, Ташкент"
+        "uz": "Penopleks XPS Standard — devor, tom va pol uchun, Toshkent",
+        "ru": "Пеноплекс XPS Standard — для стен, кровли и пола, Ташкент"
       },
       "seoDescription": {
         "uz": "",
         "ru": ""
       },
       "short": {
-        "uz": "Arzonroq variant: devor, tom va cherdak izolyatsiyasi uchun.",
-        "ru": "Более доступный вариант: для утепления стен, кровли и чердака."
+        "uz": "Optimal mustahkamlikka ega sifatli ekstruziyalangan penopolistirol — devor, fasad, tom va pol uchun tejamkor yechim.",
+        "ru": "Качественный экструдированный пенополистирол с оптимальной прочностью — экономичное решение для стен, фасада, кровли и пола."
       },
       "description": {
-        "uz": "XPS 24–25 «Standart» — yuk tushmaydigan yuzalarni izolyatsiya qilish uchun tejamkor yechim. Devor, fasad, tom va cherdakda issiqlikni yaxshi ushlaydi, yengil va kesish oson.\n\nKatta hajmdagi obyektlar uchun qulay: narxi 30–35 plotnostli plitadan arzonroq, issiqlik o'tkazuvchanligi esa past darajada qoladi.",
-        "ru": "XPS 24–25 «Стандарт» — экономичное решение для поверхностей без нагрузки. Хорошо держит тепло на стенах, фасаде, кровле и чердаке, лёгкий и легко режется.\n\nУдобен для больших объектов: дешевле плит плотностью 30–35, при этом теплопроводность остаётся низкой."
+        "uz": "IZOLYUKS XPS STANDARD ekstruziyalangan penopolistirol — yopiq hujayrali tuzilishga ega sifatli issiqlik izolyatsiya materiali. Bino va inshootlarni samarali izolyatsiya qilish uchun mo'ljallangan. Fundament, sokol, tashqi devorlar, styajka ostidagi pollar, tom va boshqa qurilish konstruksiyalarini izolyatsiya qilishda qo'llaniladi.\n\nPast issiqlik o'tkazuvchanligi, minimal suv shimishi, namlikka chidamliligi va optimal mustahkamlik ko'rsatkichlari bilan ajralib turadi. Ishonchli issiqlik izolyatsiyasini ta'minlaydi, issiqlik yo'qotilishini kamaytiradi va qurilish konstruksiyalarining xizmat muddatini uzaytiradi.",
+        "ru": "Экструдированный пенополистирол IZOLYUKS XPS STANDARD — качественный теплоизоляционный материал с закрытой ячеистой структурой, предназначенный для эффективной теплоизоляции зданий и сооружений. Применяется для утепления фундаментов, цоколей, наружных стен, полов под стяжку, кровель и других строительных конструкций.\n\nОтличается низкой теплопроводностью, минимальным водопоглощением, устойчивостью к воздействию влаги и оптимальными прочностными характеристиками. Обеспечивает надёжную теплоизоляцию, снижает теплопотери и способствует увеличению срока службы строительных конструкций."
       },
       "specs": [
         {
@@ -194,10 +201,13 @@
         },
         {
           "label": {
-            "uz": "Qalinlik",
-            "ru": "Толщина"
+            "uz": "Tuzilishi",
+            "ru": "Структура"
           },
-          "value": "20–100 mm"
+          "value": {
+            "uz": "Yopiq hujayrali",
+            "ru": "Закрытоячеистая"
+          }
         },
         {
           "label": {
@@ -208,28 +218,28 @@
         },
         {
           "label": {
-            "uz": "Harorat",
-            "ru": "Температура"
+            "uz": "Qalinlik",
+            "ru": "Толщина"
           },
-          "value": "−70…+75°C"
+          "value": "20–100 mm"
         }
       ],
       "features": [
         {
-          "uz": "Arzonroq — katta hajmlar uchun qulay",
-          "ru": "Дешевле — выгодно на больших объёмах"
+          "uz": "Optimal mustahkamlik",
+          "ru": "Оптимальная прочность"
         },
         {
-          "uz": "Devor, tom va cherdak uchun",
-          "ru": "Для стен, кровли и чердака"
+          "uz": "Minimal suv shimishi",
+          "ru": "Минимальное водопоглощение"
         },
         {
-          "uz": "Yengil, kesish oson",
-          "ru": "Лёгкий, легко режется"
+          "uz": "Past issiqlik o'tkazuvchanlik",
+          "ru": "Низкая теплопроводность"
         },
         {
-          "uz": "Namlikka chidamli",
-          "ru": "Влагостойкий"
+          "uz": "Tejamkor narx — katta hajmlar uchun",
+          "ru": "Выгодная цена — для больших объёмов"
         }
       ]
     },
@@ -237,7 +247,7 @@
       "slug": "sintifon-folgali",
       "cat": "sint",
       "badge": "HIT",
-      "image": "/img/product-2.jpg",
+      "image": "/img/products/sintifon-folgali.jpg",
       "price": 0,
       "unit": {
         "uz": "rulon",
@@ -245,33 +255,26 @@
       },
       "published": true,
       "name": {
-        "uz": "Sintifon folgali",
-        "ru": "Синтифон фольгированный"
+        "uz": "IZOLYUKS sintifon folgali",
+        "ru": "IZOLYUKS синтифон с фольгой"
       },
       "seoTitle": {
-        "uz": "Folgali sintifon narxi Toshkentda — ishlab chiqaruvchidan, optom",
-        "ru": "Фольгированный синтифон в Ташкенте — цена от производителя, опт"
+        "uz": "Folgali sintifon 2–10 mm — issiq pol uchun, Toshkentda zavod narxida",
+        "ru": "Синтифон с фольгой 2–10 мм — для тёплого пола, Ташкент, цена завода"
       },
       "seoDescription": {
         "uz": "",
         "ru": ""
       },
       "short": {
-        "uz": "Alyuminiy folga qoplamali penopolietilen. Issiqlikni qaytaradi, namlikdan himoya qiladi.",
-        "ru": "Вспененный полиэтилен с алюминиевой фольгой. Отражает тепло, защищает от влаги."
+        "uz": "Metallashtirilgan lavsan qoplamali 2–10 mm rulonli izolyatsiya — issiq pol, gilam osti va devorlar uchun.",
+        "ru": "Рулонная теплоизоляция 2–10 мм с металлизированным лавсановым покрытием — для тёплого пола, под ковёр и для стен."
       },
       "description": {
-        "uz": "Folgali sintifon — bir tomoni alyuminiy folga bilan qoplangan penopolietilen. Folga issiqlik nurlarini qaytaradi: qishda issiqlikni xonada ushlaydi, yozda tom va devordan kiradigan jaziramani to'sadi.\n\nTom, cherdak, devorlarning ichki tomoni, hammom va saunalar uchun mos. Bug' o'tkazmaydi, shuning uchun bir vaqtning o'zida gidro- va bug' izolyatsiyasi vazifasini ham bajaradi.",
-        "ru": "Фольгированный синтифон — вспененный полиэтилен, с одной стороны покрытый алюминиевой фольгой. Фольга отражает тепловое излучение: зимой удерживает тепло в помещении, летом защищает от жары через кровлю и стены.\n\nПодходит для кровли, чердака, внутренней стороны стен, бань и саун. Не пропускает пар, поэтому одновременно работает как гидро- и пароизоляция."
+        "uz": "IZOLYUKS folgali sintifon — ko'pikli asosga va metallashtirilgan lavsan qoplamaga ega, qalinligi 2–10 mm bo'lgan rulonli issiqlik izolyatsiya materiali. Issiq pol tizimlarida, gilam qoplamalari ostida, shuningdek devorlar va boshqa qurilish konstruksiyalarini qo'shimcha izolyatsiya qilishda qo'llaniladi.\n\nKo'pikli qatlam issiqlik uzatilishini kamaytiradi, metallashtirilgan qoplama esa sirtni qo'shimcha himoya qiladi va issiqlik nurlanishini qaytaradi. Material izolyatsiya samaradorligini oshiradi va xonada qo'shimcha qulaylik yaratadi.",
+        "ru": "IZOLYUKS синтифон с фольгой — рулонный теплоизоляционный материал толщиной 2–10 мм со вспененной основой и металлизированным лавсановым покрытием. Применяется в системах тёплого пола, под ковровыми покрытиями, а также для дополнительной теплоизоляции стен и других строительных конструкций.\n\nВспененный слой способствует снижению теплопередачи, а металлизированное покрытие обеспечивает дополнительную защиту поверхности и способствует отражению теплового излучения. Материал помогает повысить эффективность теплоизоляции и создать дополнительный комфорт в помещении."
       },
       "specs": [
-        {
-          "label": {
-            "uz": "Qoplama",
-            "ru": "Покрытие"
-          },
-          "value": "Al folga"
-        },
         {
           "label": {
             "uz": "Qalinlik",
@@ -281,35 +284,604 @@
         },
         {
           "label": {
-            "uz": "Eni",
-            "ru": "Ширина"
+            "uz": "Qoplama",
+            "ru": "Покрытие"
           },
-          "value": "1 m"
+          "value": {
+            "uz": "Metallashtirilgan lavsan",
+            "ru": "Металлизированный лавсан"
+          }
         },
         {
           "label": {
-            "uz": "Harorat",
-            "ru": "Температура"
+            "uz": "Asos",
+            "ru": "Основа"
           },
-          "value": "−70…+75°C"
+          "value": {
+            "uz": "Ko'pikli polietilen",
+            "ru": "Вспененный полиэтилен"
+          }
+        },
+        {
+          "label": {
+            "uz": "Shakli",
+            "ru": "Форма"
+          },
+          "value": {
+            "uz": "Rulon",
+            "ru": "Рулон"
+          }
         }
       ],
       "features": [
         {
-          "uz": "Issiqlik nurlarini qaytaradi",
+          "uz": "Issiqlik nurlanishini qaytaradi",
           "ru": "Отражает тепловое излучение"
         },
         {
-          "uz": "Bug' va namlikdan himoya",
-          "ru": "Защита от пара и влаги"
+          "uz": "Issiq pol tizimlari uchun",
+          "ru": "Для систем тёплого пола"
         },
         {
-          "uz": "Yengil va montaji oson",
-          "ru": "Лёгкий и простой монтаж"
+          "uz": "Gilam qoplamalari ostiga",
+          "ru": "Под ковровые покрытия"
         },
         {
-          "uz": "Uzoq xizmat muddati",
-          "ru": "Долгий срок службы"
+          "uz": "Devorlarni qo'shimcha izolyatsiya qilish",
+          "ru": "Дополнительное утепление стен"
+        }
+      ]
+    },
+    {
+      "slug": "ppi-p-2-10",
+      "cat": "sint",
+      "badge": "",
+      "image": "/img/products/ppi-p-2617.jpg",
+      "images": [
+        "/img/products/ppi-p-2618.jpg",
+        "/img/products/ppi-p-2619.jpg",
+        "/img/products/ppi-p-2620.jpg",
+        "/img/products/ppi-p-2621.jpg"
+      ],
+      "price": 0,
+      "unit": {
+        "uz": "rulon",
+        "ru": "рулон"
+      },
+      "published": true,
+      "name": {
+        "uz": "PPI-P 2–10",
+        "ru": "ППИ-П 2–10"
+      },
+      "seoTitle": {
+        "uz": "PPI-P 2–10 — qoplamasiz ko'pikli polietilen, qadoqlash uchun",
+        "ru": "ППИ-П 2–10 — вспененный полиэтилен без покрытия для упаковки"
+      },
+      "seoDescription": {
+        "uz": "",
+        "ru": ""
+      },
+      "short": {
+        "uz": "Qoplamasiz egiluvchan ko'pikli polietilen — oyna, shisha buyumlar va mebelni himoyali qadoqlash uchun.",
+        "ru": "Гибкий вспененный полиэтилен без покрытия — для защитной упаковки окон, стекла и мебели."
+      },
+      "description": {
+        "uz": "Qoplamasiz egiluvchan ko'pikli polietilen. Listlari oyna va shisha buyumlar orasiga qo'yiladi, rulonli polotno bilan esa mebel tashishdan oldin o'raladi.\n\nMaterial sirtlarning bir-biriga tegishini yumshatadi va ularni tirnalish hamda zarbalardan himoya qiladi. Qalinlik va qadoqlash usuli buyumga qarab tanlanadi.",
+        "ru": "Гибкий вспененный полиэтилен без покрытия. Листы прокладывают между оконными и стеклянными изделиями, а рулонным полотном оборачивают мебель перед перевозкой.\n\nМатериал смягчает контакт поверхностей и помогает защитить их от царапин и ударов; толщину и схему упаковки подбирают под изделие."
+      },
+      "specs": [
+        {
+          "label": {
+            "uz": "Qalinlik",
+            "ru": "Толщина"
+          },
+          "value": "2–10 mm"
+        },
+        {
+          "label": {
+            "uz": "Qoplama",
+            "ru": "Покрытие"
+          },
+          "value": {
+            "uz": "Yo'q",
+            "ru": "Без покрытия"
+          }
+        },
+        {
+          "label": {
+            "uz": "Shakli",
+            "ru": "Форма"
+          },
+          "value": {
+            "uz": "Rulon, list",
+            "ru": "Рулон, лист"
+          }
+        },
+        {
+          "label": {
+            "uz": "Qo'llanish",
+            "ru": "Применение"
+          },
+          "value": {
+            "uz": "Qadoqlash",
+            "ru": "Упаковка"
+          }
+        }
+      ],
+      "features": [
+        {
+          "uz": "Tirnalish va zarbalardan himoya",
+          "ru": "Защита от царапин и ударов"
+        },
+        {
+          "uz": "Oyna va shisha buyumlar uchun",
+          "ru": "Для окон и стеклянных изделий"
+        },
+        {
+          "uz": "Mebel tashish uchun",
+          "ru": "Для перевозки мебели"
+        },
+        {
+          "uz": "Qalinlik buyumga qarab tanlanadi",
+          "ru": "Толщина подбирается под изделие"
+        }
+      ]
+    },
+    {
+      "slug": "ppi-otd",
+      "cat": "pipe",
+      "badge": "NEW",
+      "image": "/img/products/ppi-otd.jpg",
+      "images": [
+        "/img/products/ppi-otd-qizil.jpg",
+        "/img/products/ppi-otd-kok.jpg"
+      ],
+      "price": 0,
+      "unit": {
+        "uz": "dona",
+        "ru": "шт"
+      },
+      "published": true,
+      "name": {
+        "uz": "PPI-OTD — qizil va ko‘k quvur izolyatsiyasi",
+        "ru": "ППИ-ОТД — изоляция труб с цветным покрытием"
+      },
+      "seoTitle": {
+        "uz": "PPI-OTD quvur izolyatsiyasi 16–52 mm — issiq va sovuq suv uchun",
+        "ru": "ППИ-ОТД изоляция труб 16–52 мм — для горячей и холодной воды"
+      },
+      "seoDescription": {
+        "uz": "",
+        "ru": ""
+      },
+      "short": {
+        "uz": "Ikki qatlam qoplamali ko'pikli polietilen qobiq — ichki quvur tizimlari uchun. Devor qalinligi 4–15 mm, diametr 16–52 mm.",
+        "ru": "Оболочка из вспененного полиэтилена с двойным покрытием для внутренних трубных систем. Стенка 4–15 мм, диаметры 16–52 мм."
+      },
+      "description": {
+        "uz": "PPI-OTD — ichki quvur tizimlari uchun ikki qatlam qoplamali ko'pikli polietilen qobiq. Issiq va sovuq suv ta'minotining plastik quvurlarini issiqlik izolyatsiyasi uchun mos.\n\nYonma-yon liniyalarni alohida izolyatsiya qilish ular orasidagi issiqlik almashinuvini kamaytiradi, qizil va ko'k qoplamalar esa konturlarni ajratishga yordam beradi. Izolyatsiya devorining qalinligi — 4–15 mm. Diametrlar 16 mm dan 52 mm gacha.",
+        "ru": "ППИ-ОТД — оболочка из вспененного полиэтилена с двойным покрытием для внутренних трубных систем. Подходит для теплоизоляции пластиковых труб горячего и холодного водоснабжения.\n\nРаздельная изоляция соседних линий снижает теплообмен между ними, а красное и синее покрытия помогают различать контуры. Толщина стенки теплоизоляции — 4–15 мм. Диаметры от 16 до 52 мм."
+      },
+      "specs": [
+        {
+          "label": {
+            "uz": "Devor qalinligi",
+            "ru": "Толщина стенки"
+          },
+          "value": "4–15 mm"
+        },
+        {
+          "label": {
+            "uz": "Diametr",
+            "ru": "Диаметр"
+          },
+          "value": "16–52 mm"
+        },
+        {
+          "label": {
+            "uz": "Qoplama",
+            "ru": "Покрытие"
+          },
+          "value": {
+            "uz": "Qizil / ko'k",
+            "ru": "Красное / синее"
+          }
+        },
+        {
+          "label": {
+            "uz": "Qo'llanish",
+            "ru": "Применение"
+          },
+          "value": {
+            "uz": "Issiq va sovuq suv",
+            "ru": "ГВС и ХВС"
+          }
+        }
+      ],
+      "features": [
+        {
+          "uz": "Issiq va sovuq suv quvurlari uchun",
+          "ru": "Для труб горячей и холодной воды"
+        },
+        {
+          "uz": "Qizil va ko'k rang — konturlarni ajratish oson",
+          "ru": "Красный и синий — легко различать контуры"
+        },
+        {
+          "uz": "Liniyalar orasidagi issiqlik almashinuvini kamaytiradi",
+          "ru": "Снижает теплообмен между линиями"
+        },
+        {
+          "uz": "Diametrlar 16–52 mm",
+          "ru": "Диаметры 16–52 мм"
+        }
+      ]
+    },
+    {
+      "slug": "quvur-izolyatsiyasi",
+      "cat": "pipe",
+      "badge": "",
+      "image": "/img/products/quvur-izolyatsiyasi.jpg",
+      "price": 0,
+      "unit": {
+        "uz": "dona",
+        "ru": "шт"
+      },
+      "published": true,
+      "name": {
+        "uz": "Quvur uchun izolyatsiya qobig‘i (laminatsiyalangan)",
+        "ru": "Теплоизоляционная оболочка для труб (ламинированная)"
+      },
+      "seoTitle": {
+        "uz": "Quvur izolyatsiyasi — laminatsiyalangan qobiq, kondensatdan himoya",
+        "ru": "Теплоизоляция для труб — ламинированная оболочка, защита от конденсата"
+      },
+      "seoDescription": {
+        "uz": "",
+        "ru": ""
+      },
+      "short": {
+        "uz": "Himoya laminat qoplamali ko'pikli polietilen qobiq — quvurlarni issiqlik izolyatsiyasi va tashqi ta'sirdan himoya qilish uchun.",
+        "ru": "Оболочка из вспененного полиэтилена с защитным ламинированным покрытием — для теплоизоляции и защиты трубопроводов."
+      },
+      "description": {
+        "uz": "IZOLYUKS issiqlik izolyatsiya qobig'i — himoya laminatsiyalangan qoplamali ko'pikli polietilendan tayyorlangan. Quvurlarni issiqlik izolyatsiyasi uchun mo'ljallangan, issiqlik yo'qotilishini kamaytiradi va quvurlarni tashqi muhit ta'siridan himoya qiladi.\n\nTashqi qatlam buyumning mustahkamligi va uzoq xizmat qilishini oshiradi. To'g'ri montaj qilinganda va choklar germetiklanganda kondensat hosil bo'lishining oldini oladi va metall quvurlarning korroziyaga uchrash xavfini kamaytiradi.",
+        "ru": "Теплоизоляционная оболочка IZOLYUKS из вспененного полиэтилена с защитным ламинированным покрытием. Предназначена для теплоизоляции трубопроводов, помогает снизить потери тепла и защитить трубы от воздействия внешней среды.\n\nНаружный слой повышает прочность и долговечность изделия. При правильном монтаже и герметизации стыков способствует предотвращению образования конденсата и снижает риск коррозии металлических труб."
+      },
+      "specs": [
+        {
+          "label": {
+            "uz": "Material",
+            "ru": "Материал"
+          },
+          "value": {
+            "uz": "Ko'pikli polietilen",
+            "ru": "Вспененный ПЭ"
+          }
+        },
+        {
+          "label": {
+            "uz": "Qoplama",
+            "ru": "Покрытие"
+          },
+          "value": {
+            "uz": "Laminat",
+            "ru": "Ламинат"
+          }
+        },
+        {
+          "label": {
+            "uz": "Qo'llanish",
+            "ru": "Применение"
+          },
+          "value": {
+            "uz": "Quvurlar",
+            "ru": "Трубопроводы"
+          }
+        },
+        {
+          "label": {
+            "uz": "Himoya",
+            "ru": "Защита"
+          },
+          "value": {
+            "uz": "Kondensat, korroziya",
+            "ru": "Конденсат, коррозия"
+          }
+        }
+      ],
+      "features": [
+        {
+          "uz": "Issiqlik yo'qotilishini kamaytiradi",
+          "ru": "Снижает потери тепла"
+        },
+        {
+          "uz": "Laminat qatlam — mustahkam va uzoq xizmat qiladi",
+          "ru": "Ламинированный слой — прочность и долговечность"
+        },
+        {
+          "uz": "Kondensat hosil bo'lishining oldini oladi",
+          "ru": "Предотвращает образование конденсата"
+        },
+        {
+          "uz": "Metall quvurlarni korroziyadan himoya qiladi",
+          "ru": "Защищает металлические трубы от коррозии"
+        }
+      ]
+    },
+    {
+      "slug": "gidro-paroizolyatsiya",
+      "cat": "film",
+      "badge": "",
+      "image": "/img/products/gidro-paroizolyatsiya.jpg",
+      "price": 0,
+      "unit": {
+        "uz": "rulon",
+        "ru": "рулон"
+      },
+      "published": true,
+      "name": {
+        "uz": "Gidro-bug' izolyatsiyasi IZOLYUKS",
+        "ru": "Гидро-пароизоляция IZOLYUKS"
+      },
+      "seoTitle": {
+        "uz": "Gidro-bug' izolyatsiya plyonkasi — tom va devor uchun, Toshkent",
+        "ru": "Гидро-пароизоляционная плёнка — для кровли и стен, Ташкент"
+      },
+      "seoDescription": {
+        "uz": "",
+        "ru": ""
+      },
+      "short": {
+        "uz": "Qurilish konstruksiyalarini namlik va suv bug'idan himoya qiluvchi plyonka — tom, devor va orayopmalar uchun.",
+        "ru": "Плёнка для защиты строительных конструкций от влаги и водяного пара — для кровли, стен и перекрытий."
+      },
+      "description": {
+        "uz": "IZOLYUKS gidro-bug' izolyatsiyasi qurilish konstruksiyalarini namlik va suv bug'i kirib borishidan himoya qilish uchun mo'ljallangan. Material tom, devor, orayopma va binoning boshqa qismlarini izolyatsiya qilishda qo'llaniladi.\n\nIssiqlik izolyatsiya qatlamini namlikdan qo'shimcha himoya qiladi, uning ekspluatatsion xususiyatlarini saqlashga yordam beradi va qurilish konstruksiyalarining xizmat muddatini uzaytiradi.",
+        "ru": "Гидро-пароизоляция IZOLYUKS предназначена для защиты строительных конструкций от проникновения влаги и водяного пара. Материал применяется при утеплении кровли, стен, перекрытий и других элементов зданий.\n\nОбеспечивает дополнительную защиту теплоизоляционного слоя от влаги, помогает сохранять его эксплуатационные характеристики и способствует увеличению срока службы строительных конструкций."
+      },
+      "specs": [
+        {
+          "label": {
+            "uz": "Vazifasi",
+            "ru": "Назначение"
+          },
+          "value": {
+            "uz": "Namlik va bug'dan himoya",
+            "ru": "Защита от влаги и пара"
+          }
+        },
+        {
+          "label": {
+            "uz": "Qo'llanish",
+            "ru": "Применение"
+          },
+          "value": {
+            "uz": "Tom, devor, orayopma",
+            "ru": "Кровля, стены, перекрытия"
+          }
+        },
+        {
+          "label": {
+            "uz": "Obyektlar",
+            "ru": "Объекты"
+          },
+          "value": {
+            "uz": "Turar-joy, tijorat, sanoat",
+            "ru": "Жилые, коммерческие, промышленные"
+          }
+        },
+        {
+          "label": {
+            "uz": "Shakli",
+            "ru": "Форма"
+          },
+          "value": {
+            "uz": "Rulon",
+            "ru": "Рулон"
+          }
+        }
+      ],
+      "features": [
+        {
+          "uz": "Tom konstruksiyalarida izolyatsiyani himoya qilish",
+          "ru": "Защита утеплителя в кровельных конструкциях"
+        },
+        {
+          "uz": "Devor va orayopmalarning gidro- va bug' izolyatsiyasi",
+          "ru": "Гидро- и пароизоляция стен и перекрытий"
+        },
+        {
+          "uz": "Turar-joy, tijorat va sanoat binolari uchun",
+          "ru": "Для жилых, коммерческих и промышленных зданий"
+        },
+        {
+          "uz": "Issiqlik izolyatsiya tizimlarida qo'llash",
+          "ru": "Применение в системах теплоизоляции"
+        }
+      ]
+    },
+    {
+      "slug": "skoba-yakor",
+      "cat": "acc",
+      "badge": "",
+      "image": "/img/products/skoba-yakor.jpg",
+      "price": 0,
+      "unit": {
+        "uz": "dona",
+        "ru": "шт"
+      },
+      "published": true,
+      "name": {
+        "uz": "Yakorli skoba IZOLYUKS",
+        "ru": "Скоба якорная IZOLYUKS"
+      },
+      "seoTitle": {
+        "uz": "Yakorli skoba — montaj va mahkamlash uchun, Toshkent",
+        "ru": "Скоба якорная — для монтажа и фиксации, Ташкент"
+      },
+      "seoDescription": {
+        "uz": "",
+        "ru": ""
+      },
+      "short": {
+        "uz": "U-simon konstruksiyali polimer skoba — montaj va qurilish ishlarida elementlarni ishonchli mahkamlash uchun.",
+        "ru": "Полимерная скоба U-образной конструкции — для надёжного крепления и фиксации элементов при монтажных работах."
+      },
+      "description": {
+        "uz": "IZOLYUKS yakorli skobasi montaj va qurilish ishlarini bajarishda elementlarni ishonchli mahkamlash va qotirish uchun mo'ljallangan. Maxsus U-simon konstruksiyasi va o'tkir mahkamlash elementlari tufayli montaj qulay, ushlab turishi esa ishonchli.\n\nMustahkam polimer materialdan tayyorlangan, mexanik yuklamalarga chidamli va uzoq muddat foydalanishga mo'ljallangan.",
+        "ru": "Якорная скоба IZOLYUKS предназначена для надёжного крепления и фиксации элементов при выполнении монтажных и строительных работ. Благодаря специальной U-образной конструкции и заострённым крепёжным элементам обеспечивает удобство монтажа и надёжное удержание.\n\nИзготовлена из прочного полимерного материала, устойчива к механическим нагрузкам и рассчитана на длительную эксплуатацию."
+      },
+      "specs": [
+        {
+          "label": {
+            "uz": "Material",
+            "ru": "Материал"
+          },
+          "value": {
+            "uz": "Polimer",
+            "ru": "Полимер"
+          }
+        },
+        {
+          "label": {
+            "uz": "Shakli",
+            "ru": "Форма"
+          },
+          "value": {
+            "uz": "U-simon",
+            "ru": "U-образная"
+          }
+        },
+        {
+          "label": {
+            "uz": "Qo'llanish",
+            "ru": "Применение"
+          },
+          "value": {
+            "uz": "Montaj",
+            "ru": "Монтаж"
+          }
+        },
+        {
+          "label": {
+            "uz": "Savdo",
+            "ru": "Продажа"
+          },
+          "value": {
+            "uz": "Opt, chakana",
+            "ru": "Опт, розница"
+          }
+        }
+      ],
+      "features": [
+        {
+          "uz": "Montaj qulay va tez",
+          "ru": "Удобный и быстрый монтаж"
+        },
+        {
+          "uz": "O'tkir elementlar — ishonchli ushlab turadi",
+          "ru": "Заострённые элементы — надёжное удержание"
+        },
+        {
+          "uz": "Mexanik yuklamalarga chidamli",
+          "ru": "Устойчива к механическим нагрузкам"
+        },
+        {
+          "uz": "Uzoq xizmat qiladi",
+          "ru": "Длительная эксплуатация"
+        }
+      ]
+    },
+    {
+      "slug": "dyubel-parashyut",
+      "cat": "acc",
+      "badge": "",
+      "image": "/img/products/dyubel-parashyut.jpg",
+      "price": 0,
+      "unit": {
+        "uz": "dona",
+        "ru": "шт"
+      },
+      "published": true,
+      "name": {
+        "uz": "«Parashyut» dyubeli IZOLYUKS",
+        "ru": "Дюбель «Парашют» IZOLYUKS"
+      },
+      "seoTitle": {
+        "uz": "Penopleks uchun «Parashyut» dyubeli — Toshkent",
+        "ru": "Дюбель «Парашют» для пеноплекса — купить в Ташкенте"
+      },
+      "seoDescription": {
+        "uz": "",
+        "ru": ""
+      },
+      "short": {
+        "uz": "Issiqlik izolyatsiya materiallarini turli asoslarga mexanik mahkamlash uchun keng shlyapali dyubel.",
+        "ru": "Дюбель с широкой шляпкой для механического крепления теплоизоляции к различным строительным основаниям."
+      },
+      "description": {
+        "uz": "IZOLYUKS «Parashyut» dyubeli issiqlik izolyatsiya materiallarini turli qurilish asoslariga mexanik mahkamlash uchun mo'ljallangan. Keng perforatsiyali shlyapa yuklamani bir tekis taqsimlaydi va izolyatsiyaning sirtga zich yopishishini ta'minlaydi.\n\nQovurg'ali sterjen mustahkam qotishga yordam beradi, komplektdagi mahkamlash elementi esa montajni qulay qiladi.",
+        "ru": "Дюбель «Парашют» IZOLYUKS предназначен для механического крепления теплоизоляционных материалов к различным строительным основаниям. Широкая перфорированная шляпка обеспечивает равномерное распределение нагрузки и надёжное прилегание утеплителя к поверхности.\n\nРебристая конструкция стержня способствует прочной фиксации, а комплектный крепёжный элемент обеспечивает удобство монтажа."
+      },
+      "specs": [
+        {
+          "label": {
+            "uz": "Shlyapa",
+            "ru": "Шляпка"
+          },
+          "value": {
+            "uz": "Keng, perforatsiyali",
+            "ru": "Широкая, перфорированная"
+          }
+        },
+        {
+          "label": {
+            "uz": "Sterjen",
+            "ru": "Стержень"
+          },
+          "value": {
+            "uz": "Qovurg'ali",
+            "ru": "Ребристый"
+          }
+        },
+        {
+          "label": {
+            "uz": "Qo'llanish",
+            "ru": "Применение"
+          },
+          "value": {
+            "uz": "XPS, izolyatsiya",
+            "ru": "Утеплитель"
+          }
+        },
+        {
+          "label": {
+            "uz": "Komplekt",
+            "ru": "Комплект"
+          },
+          "value": {
+            "uz": "Mahkamlash elementi bilan",
+            "ru": "С распорным элементом"
+          }
+        }
+      ],
+      "features": [
+        {
+          "uz": "Yuklamani bir tekis taqsimlaydi",
+          "ru": "Равномерно распределяет нагрузку"
+        },
+        {
+          "uz": "Izolyatsiyani sirtga zich bosadi",
+          "ru": "Плотно прижимает утеплитель"
+        },
+        {
+          "uz": "Qovurg'ali sterjen — mustahkam qotish",
+          "ru": "Ребристый стержень — прочная фиксация"
+        },
+        {
+          "uz": "Montaj qulay",
+          "ru": "Удобный монтаж"
         }
       ]
     },
@@ -323,7 +895,7 @@
         "uz": "rulon",
         "ru": "рулон"
       },
-      "published": true,
+      "published": false,
       "name": {
         "uz": "Sintifon styajka uchun",
         "ru": "Синтифон под стяжку"
@@ -371,7 +943,10 @@
             "uz": "Qo'llanish",
             "ru": "Применение"
           },
-          "value": "Pol / Пол"
+          "value": {
+            "uz": "Pol",
+            "ru": "Пол"
+          }
         }
       ],
       "features": [
@@ -403,7 +978,7 @@
         "uz": "rulon",
         "ru": "рулон"
       },
-      "published": true,
+      "published": false,
       "name": {
         "uz": "Laminatsiyalangan polotno",
         "ru": "Ламинированное полотно"
@@ -479,7 +1054,7 @@
         "uz": "dona",
         "ru": "шт"
       },
-      "published": true,
+      "published": false,
       "name": {
         "uz": "Sport mati uchun sintifon",
         "ru": "Синтифон для спортматов"
@@ -527,7 +1102,10 @@
             "uz": "O'lcham",
             "ru": "Размер"
           },
-          "value": "Buyurtma / Заказ"
+          "value": {
+            "uz": "Buyurtma",
+            "ru": "Заказ"
+          }
         }
       ],
       "features": [
@@ -544,93 +1122,18 @@
           "ru": "Оптовые поставки"
         }
       ]
-    },
-    {
-      "slug": "skoba-dyubel",
-      "cat": "acc",
-      "badge": "NEW",
-      "image": "/img/product-5.jpg",
-      "price": 0,
-      "unit": {
-        "uz": "dona",
-        "ru": "шт"
-      },
-      "published": true,
-      "name": {
-        "uz": "Skoba (dyubel-zontik)",
-        "ru": "Скоба (дюбель-зонтик)"
-      },
-      "seoTitle": {
-        "uz": "Penopleks uchun skoba (dyubel-zontik) — Toshkent",
-        "ru": "Дюбель-зонтик для пеноплекса — купить в Ташкенте"
-      },
-      "seoDescription": {
-        "uz": "",
-        "ru": ""
-      },
-      "short": {
-        "uz": "Penopleks plitalarini devorga mustahkam o'rnatish uchun. Montajni tezlashtiradi.",
-        "ru": "Для надёжного крепления плит пеноплекса к стене. Ускоряет монтаж."
-      },
-      "description": {
-        "uz": "Skoba (dyubel-zontik) — XPS va boshqa izolyatsiya plitalarini devorga mexanik mahkamlash uchun plastik dyubel. Keng «zontik» qalpoq plitani bosib turadi, shuning uchun u shamol va vaqt o'tishi bilan ko'chib ketmaydi.\n\nMontajni tezlashtiradi va qurilishda vaqt hamda mehnatni tejaydi. Turli uzunliklarda mavjud.",
-        "ru": "Скоба (дюбель-зонтик) — пластиковый дюбель для механического крепления плит XPS и другого утеплителя к стене. Широкая шляпка-«зонтик» прижимает плиту, поэтому она не смещается от ветра и со временем.\n\nУскоряет монтаж и экономит время и труд на стройке. Доступны разные длины."
-      },
-      "specs": [
-        {
-          "label": {
-            "uz": "Qo'llanish",
-            "ru": "Применение"
-          },
-          "value": "XPS"
-        },
-        {
-          "label": {
-            "uz": "Uzunlik",
-            "ru": "Длина"
-          },
-          "value": "80–200 mm"
-        },
-        {
-          "label": {
-            "uz": "Material",
-            "ru": "Материал"
-          },
-          "value": "Plastik"
-        },
-        {
-          "label": {
-            "uz": "Savdo",
-            "ru": "Продажа"
-          },
-          "value": "Opt / Опт"
-        }
-      ],
-      "features": [
-        {
-          "uz": "Plitani mustahkam ushlaydi",
-          "ru": "Надёжно держит плиту"
-        },
-        {
-          "uz": "Montajni tezlashtiradi",
-          "ru": "Ускоряет монтаж"
-        },
-        {
-          "uz": "Turli uzunliklar",
-          "ru": "Разные длины"
-        }
-      ]
     }
   ],
   "solutions": [
     {
       "slug": "fundament-va-sokol",
       "zone": "fund",
-      "image": "/img/zavod-2.jpg",
+      "image": "/img/products/xps-premium.jpg",
       "thickness": "50–100 mm",
       "products": [
-        "xps-30-35-ekstrim",
-        "skoba-dyubel"
+        "xps-premium",
+        "dyubel-parashyut",
+        "gidro-paroizolyatsiya"
       ],
       "name": {
         "uz": "Fundament va sokol izolyatsiyasi",
@@ -645,22 +1148,23 @@
         "ru": ""
       },
       "text": {
-        "uz": "Tuproq bosimi va namlikka doimiy duch keladi — faqat yuqori plotnostli XPS 30–35 tavsiya etiladi. Plitalar suv shimmaydi va chirimaydi.",
-        "ru": "Постоянно испытывает давление грунта и влагу — рекомендуем только XPS 30–35 высокой плотности. Плиты не впитывают воду и не гниют."
+        "uz": "Tuproq bosimi va namlikka doimiy duch keladi — faqat yuqori plotnostli XPS PREMIUM tavsiya etiladi. Plitalar suv shimmaydi va chirimaydi.",
+        "ru": "Постоянно испытывает давление грунта и влагу — рекомендуем только XPS PREMIUM высокой плотности. Плиты не впитывают воду и не гниют."
       },
       "description": {
-        "uz": "Uydan chiqib ketadigan issiqlikning sezilarli qismi fundament va sokol orqali yo'qoladi. Izolyatsiya qilinmagan fundament qishda muzlaydi, namlik tortadi va vaqt o'tishi bilan yorilib ketadi.\n\nFundament uchun XPS 30–35 «Ekstrim» plitalari ishlatiladi: ular tuproq bosimiga chidaydi va suv shimmaydi. Plitalar fundamentning tashqi devoriga elim bilan yopishtiriladi, sokol qismida esa skoba bilan qo'shimcha mahkamlanadi. Tavsiya etiladigan qalinlik — iqlim va loyihaga qarab 50–100 mm.",
-        "ru": "Значительная часть тепла уходит из дома через фундамент и цоколь. Неутеплённый фундамент промерзает зимой, набирает влагу и со временем трескается.\n\nДля фундамента используют плиты XPS 30–35 «Экстрим»: они выдерживают давление грунта и не впитывают воду. Плиты приклеивают к наружной стене фундамента, а в зоне цоколя дополнительно крепят скобами. Рекомендуемая толщина — 50–100 мм в зависимости от климата и проекта."
+        "uz": "Uydan chiqib ketadigan issiqlikning sezilarli qismi fundament va sokol orqali yo'qoladi. Izolyatsiya qilinmagan fundament qishda muzlaydi, namlik tortadi va vaqt o'tishi bilan yorilib ketadi.\n\nFundament uchun XPS PREMIUM plitalari ishlatiladi: ular tuproq bosimiga chidaydi va suv shimmaydi. Plitalar fundamentning tashqi devoriga elim bilan yopishtiriladi, sokol qismida esa skoba bilan qo'shimcha mahkamlanadi. Tavsiya etiladigan qalinlik — iqlim va loyihaga qarab 50–100 mm.",
+        "ru": "Значительная часть тепла уходит из дома через фундамент и цоколь. Неутеплённый фундамент промерзает зимой, набирает влагу и со временем трескается.\n\nДля фундамента используют плиты XPS PREMIUM: они выдерживают давление грунта и не впитывают воду. Плиты приклеивают к наружной стене фундамента, а в зоне цоколя дополнительно крепят скобами. Рекомендуемая толщина — 50–100 мм в зависимости от климата и проекта."
       }
     },
     {
       "slug": "pol-va-issiq-pol",
       "zone": "floor",
-      "image": "/img/product-3.jpg",
+      "image": "/img/products/sintifon-folgali.jpg",
       "thickness": "XPS 20–50 mm · sintifon 5–10 mm",
       "products": [
-        "xps-30-35-ekstrim",
-        "sintifon-styajka-uchun"
+        "xps-premium",
+        "sintifon-folgali",
+        "skoba-yakor"
       ],
       "name": {
         "uz": "Pol va issiq pol izolyatsiyasi",
@@ -675,12 +1179,12 @@
         "ru": ""
       },
       "text": {
-        "uz": "Styajka ostiga XPS 30–35 deformatsiyaga chidamli asos beradi. Kvartirada esa sintifon yetarli — sovuq va shovqin o'tmaydi.",
-        "ru": "Под стяжку XPS 30–35 даёт основание, устойчивое к деформации. В квартире достаточно синтифона — не пропускает холод и шум."
+        "uz": "Styajka ostiga XPS PREMIUM deformatsiyaga chidamli asos beradi. Kvartirada esa sintifon yetarli — sovuq va shovqin o'tmaydi.",
+        "ru": "Под стяжку XPS PREMIUM даёт основание, устойчивое к деформации. В квартире достаточно синтифона — не пропускает холод и шум."
       },
       "description": {
-        "uz": "Issiq pol tizimida izolyatsiya issiqlikni pastga emas, xonaga yo'naltiradi — bu elektr yoki gaz sarfini sezilarli kamaytiradi. Buning uchun styajka ostiga yukka chidamli XPS 30–35 plitalari yotqiziladi.\n\nKvartiralarda va laminat ostida qalinligi 5–10 mm bo'lgan sintifon yetarli: u poldan keladigan sovuqni to'sadi va qo'shnilarga zarba shovqini o'tishini kamaytiradi.",
-        "ru": "В системе тёплого пола утеплитель направляет тепло в комнату, а не вниз — это заметно снижает расход электричества или газа. Для этого под стяжку укладывают плиты XPS 30–35, выдерживающие нагрузку.\n\nВ квартирах и под ламинат достаточно синтифона толщиной 5–10 мм: он блокирует холод от пола и снижает ударный шум для соседей."
+        "uz": "Issiq pol tizimida izolyatsiya issiqlikni pastga emas, xonaga yo'naltiradi — bu elektr yoki gaz sarfini sezilarli kamaytiradi. Buning uchun styajka ostiga yukka chidamli XPS PREMIUM plitalari yotqiziladi.\n\nKvartiralarda va laminat ostida qalinligi 5–10 mm bo'lgan sintifon yetarli: u poldan keladigan sovuqni to'sadi va qo'shnilarga zarba shovqini o'tishini kamaytiradi.",
+        "ru": "В системе тёплого пола утеплитель направляет тепло в комнату, а не вниз — это заметно снижает расход электричества или газа. Для этого под стяжку укладывают плиты XPS PREMIUM, выдерживающие нагрузку.\n\nВ квартирах и под ламинат достаточно синтифона толщиной 5–10 мм: он блокирует холод от пола и снижает ударный шум для соседей."
       }
     },
     {
@@ -689,8 +1193,8 @@
       "image": "/img/zavod-1.jpg",
       "thickness": "50–100 mm",
       "products": [
-        "xps-24-25-standart",
-        "skoba-dyubel",
+        "xps-standard",
+        "dyubel-parashyut",
         "sintifon-folgali"
       ],
       "name": {
@@ -717,12 +1221,12 @@
     {
       "slug": "tom-va-cherdak",
       "zone": "roof",
-      "image": "/img/zavod-3.jpg",
+      "image": "/img/products/gidro-paroizolyatsiya.jpg",
       "thickness": "XPS 30–50 mm · sintifon 5–10 mm",
       "products": [
-        "sintifon-folgali",
-        "xps-24-25-standart",
-        "laminatsiyalangan-polotno"
+        "gidro-paroizolyatsiya",
+        "xps-standard",
+        "sintifon-folgali"
       ],
       "name": {
         "uz": "Tom va cherdak izolyatsiyasi",
@@ -749,11 +1253,12 @@
   "calc": [
     {
       "id": "xps-30-35",
+      "product": "xps-premium",
       "kind": "board",
       "sheetArea": 0.72,
       "name": {
-        "uz": "XPS 30–35",
-        "ru": "XPS 30–35"
+        "uz": "XPS Premium",
+        "ru": "XPS Premium"
       },
       "options": [
         {
@@ -785,11 +1290,12 @@
     },
     {
       "id": "xps-24-25",
+      "product": "xps-standard",
       "kind": "board",
       "sheetArea": 0.72,
       "name": {
-        "uz": "XPS 24–25",
-        "ru": "XPS 24–25"
+        "uz": "XPS Standard",
+        "ru": "XPS Standard"
       },
       "options": [
         {
@@ -816,6 +1322,7 @@
     },
     {
       "id": "sintifon",
+      "product": "sintifon-folgali",
       "kind": "roll",
       "sheetArea": 0,
       "name": {
@@ -1043,12 +1550,12 @@
   "faq": [
     {
       "q": {
-        "uz": "Penopleks (XPS) qaysi plotnostini tanlash kerak?",
-        "ru": "Какую плотность пеноплекса (XPS) выбрать?"
+        "uz": "Qaysi penopleks (XPS) ni tanlash kerak?",
+        "ru": "Какой пеноплекс (XPS) выбрать?"
       },
       "a": {
-        "uz": "Yuk tushadigan joylar — issiq pol, styajka osti, fundament va sokol uchun XPS 30–35. Devor, tom va cherdak uchun arzonroq XPS 24–25 ham yetarli.",
-        "ru": "Для нагруженных мест — тёплого пола, под стяжку, фундамента и цоколя — XPS 30–35. Для стен, кровли и чердака достаточно более доступного XPS 24–25."
+        "uz": "Yuk tushadigan joylar — issiq pol, styajka osti, fundament va sokol uchun XPS PREMIUM (32–36 kg/m³). Devor, fasad va tom uchun tejamkor XPS STANDARD ham yetarli.",
+        "ru": "Для нагруженных мест — тёплого пола, под стяжку, фундамента и цоколя — XPS PREMIUM (32–36 кг/м³). Для стен, фасада и кровли достаточно экономичного XPS STANDARD."
       }
     },
     {

@@ -10,7 +10,7 @@ import { Icon, JsonLd, Rich, SecHead } from '@/components/ui'
 import { getContent, published } from '@/lib/content'
 import { getDict } from '@/lib/i18n'
 import { faqLd, itemListLd } from '@/lib/seo'
-import type { Lang } from '@/lib/types'
+import { specValue, type Lang } from '@/lib/types'
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const lang = (await params).lang as Lang
@@ -19,8 +19,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   const prods = published(c)
   const bySlug = new Map(c.products.map((p) => [p.slug, p]))
   const heroSlides = prods.filter((p, i, a) => a.findIndex((x) => x.image === p.image) === i && !p.image.endsWith('.svg')).slice(0, 4).map((p) => ({ image: p.image, name: p.name[lang] }))
-  const xps35 = prods.find((p) => p.slug.includes('30-35'))
-  const xps25 = prods.find((p) => p.slug.includes('24-25'))
+  const xps35 = prods.find((p) => p.slug === 'xps-premium')
+  const xps25 = prods.find((p) => p.slug === 'xps-standard')
   const marquee = [...d.marquee, ...d.marquee, ...d.marquee, ...d.marquee]
 
   return (
@@ -103,7 +103,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 <Link key={p.slug} href={`/${lang}/mahsulotlar/${p.slug}`} className={pro ? 'cmp-c pro rv' : 'cmp-c rv'}>
                   <span className="lbl">{lbl}</span>
                   <h3>{p.name[lang]}</h3>
-                  <div className="den">{p.specs[0]?.value.replace(' kg/m³', '')} <small>kg/m³</small></div>
+                  <div className="den">{specValue(p.specs[0]?.value ?? '', lang).replace(' kg/m³', '')} <small>kg/m³</small></div>
                   <ul>{p.features.map((f, i) => <li key={i}><Icon name="check" /><span>{f[lang]}</span></li>)}</ul>
                 </Link>
               ))}

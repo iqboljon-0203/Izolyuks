@@ -57,7 +57,7 @@ export function FaqSection({ c, lang, d, bg = false }: { c: Content; lang: Lang;
 export function CalcSection({ c, lang, d, bg = true }: { c: Content; lang: Lang; d: Dict; bg?: boolean }) {
   const productFor: Record<string, string> = {}
   for (const m of c.calc) {
-    const hit = c.products.find((p) => p.published && (m.kind === 'roll' ? p.cat === 'sint' : p.slug.includes(m.id.replace('xps-', ''))))
+    const hit = c.products.find((p) => p.published && p.slug === m.product) ?? c.products.find((p) => p.published && p.cat === (m.kind === 'roll' ? 'sint' : 'xps'))
     productFor[m.id] = hit?.slug ?? c.products[0]?.slug ?? ''
   }
   return (
