@@ -57,6 +57,7 @@ export function orgLd(c: Content, lang: Lang) {
     image: abs(c.gallery[0]?.image || '/img/zavod-1.jpg'),
     description: c.seo.description[lang],
     foundingDate: String(s.foundingYear),
+    ...(s.taxId ? { taxID: s.taxId } : {}),
     telephone: s.phone,
     address: { '@type': 'PostalAddress', streetAddress: s.street?.[lang] || s.address[lang], addressLocality: lang === 'ru' ? 'Ташкент' : 'Toshkent', addressRegion: lang === 'ru' ? 'Учтепинский район' : 'Uchtepa tumani', addressCountry: 'UZ' },
     ...(s.geo ? { geo: { '@type': 'GeoCoordinates', latitude: s.geo.lat, longitude: s.geo.lng }, hasMap: s.mapUrl } : {}),

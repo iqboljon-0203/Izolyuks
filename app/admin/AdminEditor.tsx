@@ -26,7 +26,7 @@ const LABELS: Record<string, string> = {
   name: 'Nomi', seoTitle: 'Google sarlavhasi (~60 belgi; bo‘sh — avtomatik)', seoDescription: 'Google tavsifi (~160 belgi; bo‘sh — avtomatik)', short: 'Qisqa tavsif', description: "To'liq tavsif (bo'sh qator — yangi xatboshi)", specs: 'Xususiyatlar', label: 'Nomi', value: 'Qiymati', features: 'Afzalliklar',
   zone: 'Uy sxemasidagi qism', thickness: 'Tavsiya etilgan qalinlik', text: 'Matn', id: 'ID', kind: 'Turi', sheetArea: 'Bitta list maydoni (m²)', options: 'Qalinlik va narxlar',
   mm: 'Qalinlik (mm)', perPack: 'Qadoqdagi listlar soni / rulondagi m²', title: 'Sarlavha', eyebrow: 'Ustki kichik yozuv', lead: 'Tavsif', icon: 'Ikonka', caption: 'Izoh', q: 'Savol', a: 'Javob', routes: "Yo'nalishlar", code: 'Kod',
-  legalName: 'Yuridik nomi', foundingYear: 'Tashkil topgan yil', phone: 'Telefon (+998XXXXXXXXX)', phoneDisplay: "Telefon (saytda ko'rinishi)", phoneLabel: 'Telefon izohi', telegram: 'Telegram username (@siz)', instagram: 'Instagram username',
+  legalName: 'Yuridik nomi', taxId: 'INN (STIR)', foundingYear: 'Tashkil topgan yil', phone: 'Telefon (+998XXXXXXXXX)', phoneDisplay: "Telefon (saytda ko'rinishi)", phoneLabel: 'Telefon izohi', telegram: 'Telegram username (@siz)', instagram: 'Instagram username',
   address: 'Manzil', street: 'Ko‘cha va uy (Google uchun)', mapUrl: 'Xarita havolasi', mapEmbed: 'Xarita (iframe) havolasi', workHours: 'Ish vaqti', keywords: 'Kalit so‘zlar (vergul bilan)',
   images: 'Qo‘shimcha rasmlar (galereya)', geo: 'Xaritadagi nuqta', lat: 'Kenglik (lat)', lng: 'Uzunlik (lng)', product: 'Buyurtmada tanlanadigan mahsulot (slug)',
 }

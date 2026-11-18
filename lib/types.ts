@@ -58,6 +58,8 @@ export interface Content {
   site: {
     legalName: string
     foundingYear: number
+    /** INN (STIR) */
+    taxId?: string
     phone: string
     phoneDisplay: string
     phoneLabel: L
