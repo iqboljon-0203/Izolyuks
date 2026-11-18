@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto'
 import { unstable_cache } from 'next/cache'
 import seed from '@/data/content.json'
 import type { Content } from './types'
@@ -36,7 +37,10 @@ async function readRaw(): Promise<Content> {
   }
 }
 
-export const getContent = unstable_cache(readRaw, ['izolyuks-content'], { tags: [CONTENT_TAG] })
+/** Changes whenever data/content.json changes, so a new deploy never serves cached old seed content. */
+const SEED_VERSION = createHash('sha1').update(JSON.stringify(seed)).digest('hex').slice(0, 12)
+
+export const getContent = unstable_cache(readRaw, ['izolyuks-content', SEED_VERSION], { tags: [CONTENT_TAG] })
 
 export async function saveContent(c: Content): Promise<void> {
   const json = JSON.stringify(c, null, 2)

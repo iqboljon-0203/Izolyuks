@@ -23,13 +23,13 @@ const TABS: { id: string; label: string; keys: (keyof Content)[]; hint?: string 
 const LABELS: Record<string, string> = {
   products: 'Mahsulotlar', calc: 'Kalkulyator materiallari', hero: 'Bosh ekran', stats: 'Raqamlar', advantages: 'Afzalliklar', steps: 'Ish bosqichlari', delivery: 'Yetkazib berish', solutions: 'Yechimlar', gallery: 'Galereya rasmlari', faq: 'Savollar', site: 'Kontakt ma’lumotlari', seo: 'SEO',
   slug: 'Sahifa manzili (URL)', cat: 'Toifa', badge: 'Belgi (TOP, NEW, HIT yoki bo‘sh)', image: 'Rasm', price: "Narx (so'm). 0 = so'rov bo'yicha", unit: "Narx birligi (qadoq, rulon...)", published: 'Saytda ko‘rsatish',
-  name: 'Nomi', short: 'Qisqa tavsif', description: "To'liq tavsif (bo'sh qator — yangi xatboshi)", specs: 'Xususiyatlar', label: 'Nomi', value: 'Qiymati', features: 'Afzalliklar',
+  name: 'Nomi', seoTitle: 'Google sarlavhasi (~60 belgi; bo‘sh — avtomatik)', seoDescription: 'Google tavsifi (~160 belgi; bo‘sh — avtomatik)', short: 'Qisqa tavsif', description: "To'liq tavsif (bo'sh qator — yangi xatboshi)", specs: 'Xususiyatlar', label: 'Nomi', value: 'Qiymati', features: 'Afzalliklar',
   zone: 'Uy sxemasidagi qism', thickness: 'Tavsiya etilgan qalinlik', text: 'Matn', id: 'ID', kind: 'Turi', sheetArea: 'Bitta list maydoni (m²)', options: 'Qalinlik va narxlar',
   mm: 'Qalinlik (mm)', perPack: 'Qadoqdagi listlar soni / rulondagi m²', title: 'Sarlavha', eyebrow: 'Ustki kichik yozuv', lead: 'Tavsif', icon: 'Ikonka', caption: 'Izoh', q: 'Savol', a: 'Javob', routes: "Yo'nalishlar", code: 'Kod',
   legalName: 'Yuridik nomi', foundingYear: 'Tashkil topgan yil', phone: 'Telefon (+998XXXXXXXXX)', phoneDisplay: "Telefon (saytda ko'rinishi)", phoneLabel: 'Telefon izohi', telegram: 'Telegram username (@siz)', instagram: 'Instagram username',
   address: 'Manzil', mapUrl: 'Xarita havolasi', mapEmbed: 'Xarita (iframe) havolasi', workHours: 'Ish vaqti', keywords: 'Kalit so‘zlar (vergul bilan)',
 }
-const LONG = new Set(['description', 'a', 'text', 'lead', 'short'])
+const LONG = new Set(['description', 'a', 'text', 'lead', 'short', 'seoDescription'])
 const SELECTS: Record<string, { v: string; t: string }[]> = {
   cat: [{ v: 'xps', t: 'XPS penopleks' }, { v: 'sint', t: 'Sintifon' }, { v: 'acc', t: 'Aksessuar' }],
   zone: [{ v: 'fund', t: 'Fundament' }, { v: 'floor', t: 'Pol' }, { v: 'wall', t: 'Devor' }, { v: 'roof', t: 'Tom' }],

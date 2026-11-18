@@ -31,8 +31,9 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   if (!r) return {}
   const { p, lang } = r
   const d = getDict(lang)
-  const title = `${p.name[lang]} — ${lang === 'uz' ? 'narxi, xususiyatlari' : 'цена, характеристики'}`
-  const description = `${p.short[lang]} ${p.specs.map((s) => `${s.label[lang]}: ${s.value}`).join(', ')}. ${d.price.from === 'dan' ? "Zavod narxida, O'zbekiston bo'ylab yetkazish." : 'По цене завода, доставка по Узбекистану.'}`
+  const title = p.seoTitle?.[lang]?.trim() || `${p.name[lang]} — ${lang === 'uz' ? 'narxi, xususiyatlari' : 'цена, характеристики'}`
+  const auto = `${p.short[lang]} ${p.specs.map((s) => `${s.label[lang]}: ${s.value}`).join(', ')}. ${d.price.from === 'dan' ? "Zavod narxida, O'zbekiston bo'ylab yetkazish." : 'По цене завода, доставка по Узбекистану.'}`
+  const description = p.seoDescription?.[lang]?.trim() || auto
   return pageMeta({ lang, path: `/mahsulotlar/${p.slug}`, title, description: description.slice(0, 300), image: p.image, type: 'article' })
 }
 

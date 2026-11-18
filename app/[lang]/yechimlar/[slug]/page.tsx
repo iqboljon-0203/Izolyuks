@@ -29,7 +29,14 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   const r = await load(params)
   if (!r) return {}
   const { s, lang } = r
-  return pageMeta({ lang, path: `/yechimlar/${s.slug}`, title: s.name[lang], description: s.text[lang], image: s.image, type: 'article' })
+  return pageMeta({
+    lang,
+    path: `/yechimlar/${s.slug}`,
+    title: s.seoTitle?.[lang]?.trim() || s.name[lang],
+    description: s.seoDescription?.[lang]?.trim() || s.text[lang],
+    image: s.image,
+    type: 'article',
+  })
 }
 
 export default async function SolutionPage({ params }: P) {

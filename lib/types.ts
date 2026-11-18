@@ -13,6 +13,10 @@ export interface Product {
   unit: L
   published: boolean
   name: L
+  /** Google sarlavhasi (bo'sh bo'lsa avtomatik) */
+  seoTitle?: L
+  /** Google tavsifi (bo'sh bo'lsa avtomatik) */
+  seoDescription?: L
   short: L
   description: L
   specs: Spec[]
@@ -26,6 +30,8 @@ export interface Solution {
   thickness: string
   products: string[]
   name: L
+  seoTitle?: L
+  seoDescription?: L
   text: L
   description: L
 }
