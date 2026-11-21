@@ -32,7 +32,7 @@ const LABELS: Record<string, string> = {
 }
 const LONG = new Set(['description', 'a', 'text', 'lead', 'short', 'seoDescription'])
 const SELECTS: Record<string, { v: string; t: string }[]> = {
-  cat: [{ v: 'xps', t: 'XPS penopleks' }, { v: 'sint', t: 'Sintifon' }, { v: 'pipe', t: 'Quvur izolyatsiyasi' }, { v: 'film', t: 'Plyonka' }, { v: 'acc', t: 'Mahkamlagich' }],
+  cat: [{ v: 'xps', t: 'XPS' }, { v: 'sint', t: 'Sintifon' }, { v: 'pipe', t: 'Quvur izolyatsiyasi' }, { v: 'film', t: 'Plyonka' }, { v: 'acc', t: 'Mahkamlagich' }],
   zone: [{ v: 'fund', t: 'Fundament' }, { v: 'floor', t: 'Pol' }, { v: 'wall', t: 'Devor' }, { v: 'roof', t: 'Tom' }],
   kind: [{ v: 'board', t: 'Plita (list)' }, { v: 'roll', t: 'Rulon' }],
   icon: ['factory', 'box', 'truck', 'leaf', 'thermo', 'globe', 'phone', 'home', 'building', 'clock'].map((v) => ({ v, t: v })),
