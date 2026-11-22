@@ -69,8 +69,11 @@ section.pb0{padding-bottom:0}
 .hdr.scrolled{background:var(--head);backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:84px;gap:20px}
 .brand{display:block;line-height:0;flex:none}
-.logo-svg{width:auto;overflow:visible}
-.logo-svg .gap{stroke:var(--bg)}
+.logo-img{display:inline-flex;align-items:center}
+.logo-img img{height:100%;width:auto;display:block}
+.logo-img .lg-d{display:none}
+[data-theme=dark] .logo-img .lg-l{display:none}
+[data-theme=dark] .logo-img .lg-d{display:block}
 .menu{display:flex;gap:32px;font-size:14px;font-weight:500;color:var(--muted)}
 .menu a{white-space:nowrap;position:relative}
 .menu a::after{content:"";position:absolute;left:0;right:100%;bottom:-6px;height:1px;background:var(--red);transition:.3s}
@@ -397,6 +400,6 @@ a.ci:hover{padding-left:14px}
   .house .hint{position:static;display:block;margin-top:8px}
   .foot-grid{grid-template-columns:1fr}
   .faq details p{padding-right:0}
-  .logo-svg{height:26px}
+  .hdr .logo-img{height:26px!important}
   .map{height:320px}
 }

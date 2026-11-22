@@ -70,18 +70,18 @@ export function SecHead({ eb, title, p }: { eb: string; title: string; p?: strin
   )
 }
 
-/* ---------- Brand logo (vector redraw of the IZOLYUKS mark) ---------- */
-const RED = 'M6 0V60 M24 0H64L24 60H64 M92 0H108A14 14 0 0 1 122 14V46A14 14 0 0 1 108 60H92A14 14 0 0 1 78 46V14A14 14 0 0 1 92 0Z'
-const BLUE = 'M136 0V60H174 M184 0L204 30L224 0M204 30V60 M236 0V46A14 14 0 0 0 250 60H262A14 14 0 0 0 276 46V0 M290 0V60M326 0L294 30L326 60 M386 0H354A15 15 0 0 0 354 30H371A23 23 0 0 1 371 76H6'
+/* ---------- Brand logo: the company's original artwork (transparent PNG) ---------- */
+const LOGO_RATIO = 885 / 160
 
 export function Logo({ height = 34 }: { height?: number }) {
+  const width = Math.round(height * LOGO_RATIO)
   return (
-    <svg viewBox="-8 -8 420 92" height={height} fill="none" role="img" aria-label="IZOLYUKS" className="logo-svg">
-      {/* Solid strokes: crisp and legible at small sizes */}
-      <path d={RED} stroke="var(--logo-red)" strokeWidth={11} />
-      <path d={BLUE} stroke="var(--logo-blue)" strokeWidth={11} />
-      <circle cx="402" cy="2" r="7" stroke="var(--logo-blue)" strokeWidth={1.6} />
-      <text x="402" y="5.5" textAnchor="middle" fontFamily="Arial" fontWeight={700} fontSize={9} fill="var(--logo-blue)">R</text>
-    </svg>
+    <span className="logo-img" style={{ height }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/logo.png" alt="IZOLYUKS" width={width} height={height} className="lg-l" decoding="async" />
+      {/* lighter blue for the dark theme */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/logo-dark.png" alt="" aria-hidden="true" width={width} height={height} className="lg-d" decoding="async" />
+    </span>
   )
 }

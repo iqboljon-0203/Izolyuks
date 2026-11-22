@@ -53,7 +53,7 @@ export function orgLd(c: Content, lang: Lang) {
     name: 'IZOLYUKS',
     legalName: s.legalName,
     url: SITE_URL,
-    logo: abs('/logo.svg'),
+    logo: abs('/logo.png'),
     image: abs(c.gallery[0]?.image || '/img/zavod-1.jpg'),
     description: c.seo.description[lang],
     foundingDate: String(s.foundingYear),
